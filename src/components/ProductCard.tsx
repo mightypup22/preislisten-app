@@ -7,7 +7,7 @@ import Modal from './Modal'
 
 export default function ProductCard({ p }: { p: Product }) {
   const { addWithOptions } = useCart()
-  const { t } = useLang()
+  const { t, lang } = useLang() as any
 
   const [showImage, setShowImage] = useState<boolean>(!!(p.images && p.images.length > 0))
   const [modalOpen, setModalOpen] = useState(false)
@@ -17,6 +17,7 @@ export default function ProductCard({ p }: { p: Product }) {
   // Titel: nur 'typ' anzeigen (Fallback auf name, falls typ fehlt)
   const title = p.typ || p.name || ''
   const hasImage = showImage && p.images && p.images[0]
+  const hasOptions = p.options.length > 0
 
   const selectedList: Option[] = useMemo(
     () => p.options.filter(o => selected[o.id]),
@@ -44,11 +45,28 @@ export default function ProductCard({ p }: { p: Product }) {
   const startModal = () => { setTemp(selected); openModal() }
   const applyModal = () => { setSelected(temp); setModalOpen(false) }
 
+  // Gefilterte Optionen (für Liste & "Alle markieren")
   const filtered = useMemo(() => {
     const q = filter.trim().toLowerCase()
     if (!q) return p.options
     return p.options.filter(o => o.name.toLowerCase().includes(q))
   }, [p.options, filter])
+
+  // „Alle markieren“ → nur die aktuell gefilterten ankreuzen, andere unverändert lassen
+  const handleSelectAll = () => {
+    setTemp(prev => {
+      const next = { ...prev }
+      for (const o of filtered) next[o.id] = true
+      return next
+    })
+  }
+
+  // Sprachsicheres Label für „Alle markieren“
+  const selectAllLabel = (() => {
+    const tr = t('select_all')
+    if (tr && tr !== 'select_all') return tr
+    return lang === 'de' ? 'Alle markieren' : 'Select all'
+  })()
 
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-4 flex flex-col gap-3">
@@ -72,7 +90,7 @@ export default function ProductCard({ p }: { p: Product }) {
 
       <div className="text-slate-900 font-medium">{t('base_price')}: {baseLabel}</div>
 
-      {/* Ausgewählte Optionen – dezente Trennlinien, Preis in eigener Zeile rechts & fett */}
+      {/* Ausgewählte Optionen – quadratischer X-Button links, Name rechts davon; Preis darunter rechtsbündig & fett */}
       {selectedList.length > 0 && (
         <div className="mt-1">
           <div className="text-sm font-medium mb-1">{t('selected_options')}</div>
@@ -81,23 +99,23 @@ export default function ProductCard({ p }: { p: Product }) {
               const priceLabel = opt.price.type === 'value' ? fmtEUR(opt.price.eur) : t('price_on_request')
               return (
                 <li key={opt.id} className="py-2">
-                  {/* Zeile 1: Name + X-Button (mit Rand) direkt dahinter */}
-                  <div className="flex items-start">
-                    <span className="whitespace-normal break-words" style={{ hyphens: 'auto', wordBreak: 'break-word' }}>
-                      {opt.name}
-                    </span>
+                  {/* Zeile 1: Quadrat-Button links, Titel rechts (umbruchfähig) */}
+                  <div className="grid grid-cols-[32px_1fr] gap-3 items-start">
                     <button
-                      className="ml-2 rounded border px-2 leading-none text-slate-700 hover:bg-slate-50"
+                      className="h-8 w-8 rounded border grid place-items-center text-slate-700 hover:bg-slate-50"
                       title={t('remove')}
                       aria-label={t('remove')}
                       onClick={() => setSelected(prev => ({ ...prev, [opt.id]: false }))}
                     >
                       ×
                     </button>
-                  </div>
-                  {/* Zeile 2: Preis rechtsbündig und fett */}
-                  <div className="mt-1 text-[12px] text-right font-semibold text-slate-900">
-                    {t('price_label')}: {priceLabel}
+                    <div className="min-w-0 whitespace-normal break-words" style={{ hyphens: 'auto', wordBreak: 'break-word' }}>
+                      {opt.name}
+                    </div>
+                    {/* Zeile 2 (unter beiden Spalten): Preis */}
+                    <div className="col-span-2 mt-1 text-[12px] text-right font-semibold text-slate-900">
+                      {t('price_label')}: {priceLabel}
+                    </div>
                   </div>
                 </li>
               )
@@ -132,7 +150,7 @@ export default function ProductCard({ p }: { p: Product }) {
       <div className="flex items-center gap-3 mt-1">
         <button
           className="px-3 py-2 rounded-xl border hover:bg-slate-50 active:scale-[.98]"
-          onClick={startModal}
+          onClick={() => { setTemp(selected); openModal() }}
         >
           {t('open_options')}
         </button>
@@ -150,13 +168,32 @@ export default function ProductCard({ p }: { p: Product }) {
         onClose={closeModal}
         title={t('additional_options')}
         footer={(
-          <>
-            <button className="rounded-xl border px-3 py-2 hover:bg-slate-50" onClick={closeModal}>{t('cancel')}</button>
-            <button className="rounded-xl bg-slate-900 text-white px-3 py-2 hover:bg-slate-800" onClick={applyModal}>{t('apply')}</button>
-          </>
+          <div className="w-full flex items-center justify-between gap-2">
+            {/* Links: Alle markieren (nur sinnvoll, wenn es Options-Treffer gibt) */}
+            {hasOptions ? (
+              <button
+                className="rounded-xl border px-3 py-2 hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                onClick={handleSelectAll}
+                disabled={filtered.length === 0}
+                title={filtered.length === 0 ? (lang === 'de' ? 'Keine Treffer' : 'No matches') : undefined}
+              >
+                {selectAllLabel}
+              </button>
+            ) : <span />}
+
+            {/* Rechts: Cancel / Apply */}
+            <div className="flex items-center gap-2">
+              <button className="rounded-xl border px-3 py-2 hover:bg-slate-50" onClick={closeModal}>
+                {t('cancel')}
+              </button>
+              <button className="rounded-xl bg-slate-900 text-white px-3 py-2 hover:bg-slate-800" onClick={applyModal}>
+                {t('apply')}
+              </button>
+            </div>
+          </div>
         )}
       >
-        {p.options.length === 0 ? (
+        {!hasOptions ? (
           <div className="text-sm text-slate-500">{t('no_options_available')}</div>
         ) : (
           <>
