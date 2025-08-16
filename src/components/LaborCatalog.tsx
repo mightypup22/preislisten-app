@@ -2,8 +2,25 @@ import React, { useEffect, useState } from 'react'
 import { LaborCost, LaborData } from '../types'
 import { fmtEUR } from '../utils/format'
 import { useCart } from '../context/CartContext'
+import { useLang } from '../context/Lang'
+
+async function fetchLangJson<T>(baseUrlNoExt: string, lang: 'de' | 'en'): Promise<T> {
+  const candidates = [
+    `${baseUrlNoExt}.${lang}.json`,
+    `${baseUrlNoExt}.de.json`,
+    `${baseUrlNoExt}.json`,
+  ]
+  for (const url of candidates) {
+    try {
+      const r = await fetch(url, { headers: { Accept: 'application/json' } })
+      if (r.ok) return (await r.json()) as T
+    } catch {}
+  }
+  throw new Error(`Keine der Dateien gefunden: ${candidates.join(', ')}`)
+}
 
 export default function LaborCatalog(){
+  const { t, lang } = useLang() as any
   const [all, setAll] = useState<LaborCost[]>([])
   const [sel, setSel] = useState<Record<string, boolean>>({})
   const [days, setDays] = useState<Record<string, number>>({})
@@ -12,19 +29,21 @@ export default function LaborCatalog(){
   const { addLaborMany } = useCart()
 
   useEffect(()=>{
-    (async () => {
+    let alive = true
+    ;(async () => {
+      setError(null)
       try {
         const base = import.meta.env.BASE_URL || '/'
-        const r = await fetch(`${base}data/labor.json`, { headers: { Accept: 'application/json' } })
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
-        const data = (await r.json()) as LaborData
+        const data = await fetchLangJson<LaborData>(`${base}data/labor`, lang)
+        if (!alive) return
         setAll(data.items)
         const d: Record<string, number> = {}
         for (const it of data.items) d[it.id] = it.avgDays
         setDays(d)
-      } catch (e:any) { setError(e?.message ?? String(e)) }
+      } catch (e:any) { if (alive) setError(e?.message ?? String(e)) }
     })()
-  }, [])
+    return () => { alive = false }
+  }, [lang])
 
   const toggle = (id: string) => setSel(prev => ({ ...prev, [id]: !prev[id] }))
 
@@ -44,32 +63,31 @@ export default function LaborCatalog(){
           key={a.id}
           className="rounded-2xl border bg-white p-4 grid gap-3 items-center md:grid-cols-[1fr_auto_auto]"
         >
-            {/* Auswahl + Titel + Metazeile – Checkbox auf Titellinie zentriert */}
-            <label className="flex items-start gap-2">
-              <input
-                type="checkbox"
-                checked={!!sel[a.id]}
-                onChange={()=>toggle(a.id)}
-                className="mt-[4px]" // leicht nach unten versetzt, zentriert zur Titelzeile
-              />
-              <div>
-                <div className="font-medium leading-tight">{a.title}</div>
-                <div className="text-xs text-slate-500">
-                  {a.category}{a.group ? ` · ${a.group}` : ''}{a.machine ? ` · ${a.machine}` : ''}
-                </div>
+          {/* Auswahl + Titel + Metazeile */}
+          <label className="flex items-start gap-2">
+            <input
+              type="checkbox"
+              checked={!!sel[a.id]}
+              onChange={()=>toggle(a.id)}
+              className="mt-[2px]"
+            />
+            <div>
+              <div className="font-medium leading-tight">{a.title}</div>
+              <div className="text-xs text-slate-500">
+                {a.category}{a.group ? ` · ${a.group}` : ''}{a.machine ? ` · ${a.machine}` : ''}
               </div>
-            </label>
+            </div>
+          </label>
 
-
-          {/* Rechtsbündige Info-Spalte (links vor Tage) */}
+          {/* Rechtsbündige Info-Spalte */}
           <div className="text-sm text-slate-700 text-right justify-self-end">
-            <div>Ø Aufwand: {a.avgDays} Tage</div>
-            <div>Preis pro Tag: {fmtEUR(a.dayRateEur)}</div>
+            <div>{t('avg_symbol')}: {a.avgDays} {t('days')}</div>
+            <div>{t('price_per_day')}: {fmtEUR(a.dayRateEur)}</div>
           </div>
 
-          {/* Tage-Eingabe (ganz rechts) */}
+          {/* Tage-Eingabe */}
           <div className="flex items-center gap-2 justify-self-end md:ml-6">
-            <label className="text-sm whitespace-nowrap">Tage</label>
+            <label className="text-sm whitespace-nowrap">{t('days')}</label>
             <input
               type="number" min={0} step={1}
               className="w-24 rounded border px-2 py-1 text-right"
@@ -77,12 +95,11 @@ export default function LaborCatalog(){
               onChange={e=> setDays(s=>({ ...s, [a.id]: parseInt(e.target.value || '0') }))}
             />
           </div>
-
         </div>
       ))}
 
       <button className="mt-2 rounded-xl border px-4 py-2" onClick={addSelected}>
-        Ausgewählte Arbeitskosten zur Zusammenfassung hinzufügen
+        {t('add')}
       </button>
     </div>
   )

@@ -1,14 +1,21 @@
 import React from 'react'
 import type { SortKey } from '../utils/search'
+import { useLang } from '../context/Lang'
 
-export default function SortMenu({ sort, setSort }: { sort: SortKey; setSort: (k: SortKey) => void }) {
+export default function SortMenu({ sort, setSort }: { sort: SortKey; setSort: (s: SortKey)=>void }) {
+  const { t } = useLang()
   return (
-    <select aria-label="Sortierung" className="rounded-xl border border-slate-300 px-3 py-2" value={sort} onChange={e=>setSort(e.target.value as SortKey)}>
-      <option value="name">Name</option>
-      <option value="group">Gruppe</option>
-      <option value="groupName">Kategorie → Gruppe → Name</option>
-      <option value="priceAsc">Preis ↑</option>
-      <option value="priceDesc">Preis ↓</option>
-    </select>
+    <label className="text-sm flex items-center gap-2">
+      <span>{t('sort_by')}:</span>
+      <select
+        value={sort}
+        onChange={e => setSort(e.target.value as SortKey)}
+        className="rounded border px-2 py-1"
+      >
+        <option value="name">{t('sort_name')}</option>
+        <option value="price_asc">{t('sort_price_asc')}</option>
+        <option value="price_desc">{t('sort_price_desc')}</option>
+      </select>
+    </label>
   )
 }

@@ -21,3 +21,68 @@
   }
   main { display: block !important; }
 }
+/* ========= Helpers & Look ========= */
+:root{
+  --card-bg: #ffffff;
+  --card-br: 16px;
+  --card-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+.tabular { font-variant-numeric: tabular-nums; }
+.price { white-space: nowrap; }
+
+.card{
+  background: var(--card-bg);
+  border: 1px solid rgb(226 232 240); /* slate-200 */
+  border-radius: var(--card-br);
+  box-shadow: var(--card-shadow);
+  transition: box-shadow .2s ease, transform .04s ease;
+}
+.card:hover{ box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+
+.hyphens { hyphens: auto; word-break: break-word; overflow-wrap: anywhere; }
+
+/* Optional: Sticky-Filterbar mit leichtem Blur */
+.sticky-bar{
+  position: sticky; top: 0; z-index: 20;
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,.7);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgb(226 232 240);
+}
+
+/* Sichtbarkeit für Screen vs. Print */
+.no-print { display: initial; }
+.print-only { display: none; }
+
+/* Kleine Interaktionsanimation für Buttons (optional nutzen) */
+@media (prefers-reduced-motion: no-preference){
+  .interactive:active { transform: scale(.98); }
+}
+
+/* ========= Print-Optimierung ========= */
+@media print {
+  /* Nur die Zusammenfassung (#print-area) drucken */
+  body * { visibility: hidden !important; }
+  #print-area, #print-area * { visibility: visible !important; }
+  #print-area {
+    position: absolute; left: 0; top: 0; width: 100%;
+  }
+
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+
+  /* A4 mit moderaten Rändern */
+  @page { size: A4 portrait; margin: 14mm; }
+
+  /* Farbgenauer Druck */
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Überschriften nicht am Seitenumbruch zerreißen */
+  h1, h2, h3 { break-after: avoid-page; }
+
+  /* Preise schön ausrichten */
+  .tabular { font-variant-numeric: tabular-nums; }
+  .price { white-space: nowrap; }
+}
+

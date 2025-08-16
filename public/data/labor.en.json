@@ -1,0 +1,105 @@
+{
+  "currency": "EUR",
+  "updated": "2025-08-15",
+  "items": [
+    {
+      "id": "1",
+      "title": "Commissioning & demonstration (national)",
+      "category": "Handwerk Injektoren",
+      "group": "PI",
+      "machine": "PI 280-21, PI 280-57, PI 345-26, PI 345-52",
+      "avgDays": 1,
+      "dayRateEur": 600
+    },
+    {
+      "id": "2",
+      "title": "Commissioning & demonstration (national)",
+      "category": "Handwerk Tumbler",
+      "group": "GPA, GPM",
+      "machine": "GPA 100 – 600, GPM 200 – 600",
+      "avgDays": 1,
+      "dayRateEur": 600
+    },
+    {
+      "id": "3",
+      "title": "Assembly",
+      "category": "Injektoren Industrie",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 1,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "4",
+      "title": "Commissioning & demonstration",
+      "category": "Injektoren Industrie",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 3,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "5",
+      "title": "Assembly",
+      "category": "Tumbler Industrie",
+      "group": "All industry types",
+      "machine": "All industry types",
+      "avgDays": 2,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "6",
+      "title": "Commissioning & demonstration",
+      "category": "Tumbler Industrie",
+      "group": "All industry types",
+      "machine": "All industry types",
+      "avgDays": 2,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "7",
+      "title": "Commissioning & demonstration",
+      "category": "Steaker",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 1,
+      "dayRateEur": 800
+    },
+    {
+      "id": "8",
+      "title": "Assembly",
+      "category": "Linien Industrie",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "9",
+      "title": "Commissioning & demonstration",
+      "category": "Linien Industrie",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "10",
+      "title": "Assembly",
+      "category": "Coating Linie",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "11",
+      "title": "Commissioning & demonstration",
+      "category": "Coating Linie Montage",
+      "group": "All types",
+      "machine": "All types",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    }
+  ]
+}

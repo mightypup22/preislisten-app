@@ -7,8 +7,16 @@ import PriceSummary from './components/PriceSummary'
 import { CartProvider } from './context/CartContext'
 import type { SortKey } from './utils/search'
 import AdminPage from './pages/Admin'
+import LanguageToggle from './components/LanguageToggle'
+import { useLang } from './context/Lang'
 
 export default function App(){
+  const { t } = useLang()
+  const tt = (key: string, fallback: string) => {
+    const v = t(key)
+    return v === key ? fallback : v
+  }
+
   const [q, setQ] = useState('')
   const [sort, setSort] = useState<SortKey>('name')
   const [mode, setMode] = useState<'hardware'|'labor'>('hardware')
@@ -39,11 +47,13 @@ export default function App(){
                 onError={() => setShowSvgLogo(false)}
               />
               <div>
-                <h1 className="text-2xl font-bold leading-tight">Günther Maschinenbau GmbH</h1>
-                <div className="text-xl text-slate-500 -mt-0.5">Preisliste</div>
+                <h1 className="text-2xl font-bold leading-tight">{tt('brand', 'Günther Maschinenbau GmbH')}</h1>
+                <div className="text-xl text-slate-500 -mt-0.5">{tt('price_list', 'Preisliste')}</div>
               </div>
             </div>
             <div className="flex items-center gap-3">
+              {/* Sprachumschalter immer sichtbar */}
+              <LanguageToggle />
               {mode === 'hardware' && (
                 <div className="flex items-center gap-2">
                   <SearchBar q={q} setQ={setQ} />
@@ -57,8 +67,18 @@ export default function App(){
           </header>
 
           <div className="mb-4 flex gap-2">
-            <button onClick={()=>setMode('hardware')} className={`px-3 py-2 rounded-xl border ${mode==='hardware'?'bg-slate-900 text-white':'border-slate-300'}`}>Produkte</button>
-            <button onClick={()=>setMode('labor')} className={`px-3 py-2 rounded-xl border ${mode==='labor'?'bg-slate-900 text-white':'border-slate-300'}`}>Arbeit</button>
+            <button
+              onClick={()=>setMode('hardware')}
+              className={`px-3 py-2 rounded-xl border ${mode==='hardware'?'bg-slate-900 text-white':'border-slate-300'}`}
+            >
+              {tt('products_tab', 'Produkte')}
+            </button>
+            <button
+              onClick={()=>setMode('labor')}
+              className={`px-3 py-2 rounded-xl border ${mode==='labor'?'bg-slate-900 text-white':'border-slate-300'}`}
+            >
+              {tt('labor_tab', 'Arbeit')}
+            </button>
           </div>
 
           {mode === 'hardware' ? (

@@ -1,13 +1,15 @@
 import React from 'react'
+import { useLang } from '../context/Lang'
 
-export default function SearchBar({ q, setQ }: { q: string; setQ: (v: string) => void }) {
+export default function SearchBar({ q, setQ }: { q: string; setQ: (s: string) => void }) {
+  const { t } = useLang()
   return (
     <input
-      aria-label="Produkte suchen"
-      className="w-full md:w-80 rounded-xl border border-slate-300 px-4 py-2"
-      placeholder="Suche…"
+      type="text"
       value={q}
       onChange={e => setQ(e.target.value)}
+      placeholder={t('search_placeholder')}
+      className="w-64 rounded border px-3 py-2 text-sm"
     />
   )
 }
