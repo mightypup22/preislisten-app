@@ -13,8 +13,8 @@ export default function SortMenu({ sort, setSort }: { sort: SortKey; setSort: (s
         className="rounded border px-2 py-1"
       >
         <option value="name">{t('sort_name')}</option>
-        <option value="price_asc">{t('sort_price_asc')}</option>
-        <option value="price_desc">{t('sort_price_desc')}</option>
+        <option value="priceAsc">{t('sort_price_asc')}</option>
+        <option value="priceDesc">{t('sort_price_desc')}</option>
       </select>
     </label>
   )

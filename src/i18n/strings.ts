@@ -16,8 +16,8 @@ export const dict: Record<Lang, Dict> = {
     of: 'von',
     previous: 'Zurück',
     next: 'Weiter',
-    all: 'Alle',
-    all_groups: 'Alle Gruppen',
+    all: 'Alle Hauptgruppen',
+    all_groups: 'Alle Maschinengruppen',
 
     // Tabs
     products_tab: 'Produkte',
@@ -57,10 +57,10 @@ export const dict: Record<Lang, Dict> = {
     day_rate: 'Tagessatz',
     subtotal_item: 'Zwischensumme (Position)',
     subtotal_labor_item: 'Zwischensumme (Arbeit)',
-    subtotal_products: 'Zwischensumme Hardware',
+    subtotal_products: 'Zwischensumme Produkte',
     subtotal_labor: 'Zwischensumme Arbeit',
     subtotal_cart: 'Warenkorb Zwischensumme',
-    discount_on_hw: 'Rabatt auf Hardware',
+    discount_on_hw: 'Rabatt auf Produkte',
     discount_on_labor: 'Rabatt auf Arbeit',
     discount_percent: 'Rabatt %',
     discount: 'Rabatt',
@@ -84,8 +84,8 @@ export const dict: Record<Lang, Dict> = {
     of: 'of',
     previous: 'Previous',
     next: 'Next',
-    all: 'All',
-    all_groups: 'All groups',
+    all: 'All main groups',
+    all_groups: 'All machine groups',
 
     // Tabs
     products_tab: 'Products',

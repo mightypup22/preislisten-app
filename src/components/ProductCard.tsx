@@ -14,7 +14,8 @@ export default function ProductCard({ p }: { p: Product }) {
   const [filter, setFilter] = useState('')
   const [selected, setSelected] = useState<Record<string, boolean>>({}) // persistiert auf Card
 
-  const title = p.typ ? `${p.typ} — ${p.name}` : p.name
+  // Titel: nur 'typ' anzeigen (Fallback auf name, falls typ fehlt)
+  const title = p.typ || p.name || ''
   const hasImage = showImage && p.images && p.images[0]
 
   const selectedList: Option[] = useMemo(

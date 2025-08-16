@@ -38,6 +38,13 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
     return v === key ? fallback : v
   }
 
+  // Sprachsicheres Label für den Auswählen-Button
+  const selectLabel = (() => {
+    const tr = t('select')
+    if (tr && tr !== 'select') return tr
+    return lang === 'de' ? 'Auswählen' : 'Select'
+  })()
+
   useEffect(() => {
     let alive = true
     ;(async () => {
@@ -115,11 +122,11 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
       <div className="flex flex-wrap items-center gap-2 mb-3">
         {!catsOpen ? (
           <>
-            <Chip active={category === 'all'} onClick={() => { setCategory('all'); /* bleibt collapsed */ }}>
+            <Chip active={category === 'all'} onClick={() => { setCategory('all') }}>
               {tt('all', 'Alle')}
             </Chip>
             {category !== 'all' && (
-              <Chip active onClick={()=>{ /* optional: erneut wählen → öffnet Auswahl */ setCatsOpen(true) }}>
+              <Chip active onClick={()=>{ setCatsOpen(true) }}>
                 {category}
               </Chip>
             )}
@@ -127,7 +134,7 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
               className="px-3 py-1 rounded-full border border-slate-300 hover:bg-slate-50"
               onClick={() => setCatsOpen(true)}
             >
-              {tt('select', 'Auswählen')}
+              {selectLabel}
             </button>
           </>
         ) : (
@@ -153,7 +160,7 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
       <div className="flex flex-wrap items-center gap-2 mb-4">
         {!grpsOpen ? (
           <>
-            <Chip active={group === 'all'} onClick={() => { setGroup('all'); /* collapsed */ }}>
+            <Chip active={group === 'all'} onClick={() => { setGroup('all') }}>
               {tt('all_groups', 'Alle Gruppen')}
             </Chip>
             {group !== 'all' && (
@@ -167,7 +174,7 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
               disabled={groups.length === 0}
               title={groups.length === 0 ? tt('no_groups', 'Keine Gruppen verfügbar') : undefined}
             >
-              {tt('select', 'Auswählen')}
+              {selectLabel}
             </button>
           </>
         ) : (

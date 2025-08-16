@@ -4,23 +4,32 @@ import { useCart } from '../context/CartContext'
 import { itemBreakdown } from '../utils/price'
 import { useLang } from '../context/Lang'
 
-/** Eine Zeile mit Punkt-Leadern und rechtem Preis */
+/** Eine Zeile mit Punkt-Leadern und rechtem Preis (optional mit Umbruch links) */
 function Line({
   left,
   right,
   strong = false,
   muted = false,
-  className = ''
+  className = '',
+  wrap = false,          // <— NEU: lässt den linken Text umbrechen
 }: {
   left: React.ReactNode
   right: React.ReactNode
   strong?: boolean
   muted?: boolean
   className?: string
+  wrap?: boolean
 }) {
   return (
     <div className={`flex items-baseline gap-3 ${className}`}>
-      <span className={`${muted ? 'text-slate-500' : ''} ${strong ? 'font-semibold' : ''} truncate`}>
+      <span
+        className={[
+          muted ? 'text-slate-500' : '',
+          strong ? 'font-semibold' : '',
+          wrap ? 'min-w-0 break-words whitespace-normal' : 'truncate'
+        ].join(' ').trim()}
+        style={wrap ? { hyphens: 'auto', wordBreak: 'break-word' } : undefined}
+      >
         {left}
       </span>
       <div className="flex-1 border-b border-dotted border-slate-300 mx-2" />
@@ -86,7 +95,8 @@ export default function PriceSummary(){
               <div className="flex justify-between items-start gap-4">
                 <div className="space-y-0.5">
                   <div className="font-medium">
-                    {it.product.typ ? `${it.product.typ} — ${it.product.name}` : it.product.name}
+                    {/* Nur typ anzeigen, Fallback auf name */}
+                    {it.product.typ || it.product.name}
                   </div>
                   <div className="text-xs text-slate-500">{it.product.category} · {it.product.group}</div>
                 </div>
@@ -99,7 +109,7 @@ export default function PriceSummary(){
                 {/* Basispreis mit Leaders */}
                 <Line left={t('base_price')} right={baseLabel} muted={!baseIsValue} />
 
-                {/* Optionen – jede mit Leaders */}
+                {/* Optionen – jetzt mit Umbruch im Namen */}
                 {it.selected.length > 0 && (
                   <div className="pt-1">
                     <div className="text-slate-500 mb-2">{t('add')}</div>
@@ -110,6 +120,7 @@ export default function PriceSummary(){
                             left={<span>– {opt.name}</span>}
                             right={opt.price === null ? t('price_on_request') : fmtEUR(opt.price)}
                             className="text-sm"
+                            wrap   /* <— Umbruch aktivieren */
                           />
                         </li>
                       ))}

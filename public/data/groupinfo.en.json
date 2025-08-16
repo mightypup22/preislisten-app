@@ -3,41 +3,2062 @@
     "Coating VK": {
       "groups": {
         "GPC": {
-          "title": "GPC – Lorem ipsum dolor sit amet",
+          "title": "Coatinganlagen",
           "sections": [
             {
-              "title": "Leistungsmerkmale",
+              "title": "Beschreibung",
               "bullets": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                "Coatinganlagen",
+                "GPC 600 - 7000 C N2",
+                "Becoatungsanlage"
               ]
             },
             {
-              "title": "Optionale Module",
+              "title": "Ausstattung",
               "bullets": [
-                "Duis aute irure dolor in reprehenderit in voluptate velit.",
-                "Excepteur sint occaecat cupidatat non proident."
-              ]
-            },
-            {
-              "title": "Komponenten",
-              "bullets": [
-                "Part A — Lorem ipsum",
-                "Part B — Dolor sit amet"
+                "komplett aus Edelstahl",
+                "mit offenem Stickstoffsystem auf Schlitten verfahrbar",
+                "Coatingslanze und separate Stickstofflanze mit Spezialdüsen,",
+                "komplett mit Steuer- und Regeltechnik, incl. Lanzenheizung",
+                "Kühl- und Coatingintervall, frei programmierbar",
+                "Drei-Punkt schwimmend gelagerte Trommel auf Schwerlasträdern mit",
+                "separatem kraftschlüssigen direkten Kettenantrieb",
+                "zweitürige Maschine: 1 Be-/Entladetür, 1 Tür für Stickstoff-/Soßeneindüsung",
+                "Trommelgeschwindigkeit elektronisch stufenlos regelbar von 0,5 - 10 UpM über frequenzgesteuerten Antrieb",
+                "MC2R Touch Screen Steuerung",
+                "100 Programmspeicherplätze",
+                "die MC2R Steuerung bietet eine einfache Menüführung, komfortable Programmverwaltung, umfangreiche Diagnose-Tools, Fernwartung",
+                "alle Prozessparameter sind frei steuer- und programmierbar, wie beispielsweise: Arbeits- und Pausenzeit, Temperatur,",
+                "Geschwindigkeit"
               ]
             }
           ]
         }
       }
     },
-    "Brine Preparation VK": {
+    "Förderbänder": {
+      "groups": {
+        "GSB": {
+          "title": "Förderbänder [Zuführband]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Förderbänder",
+                "GZB Zuführband / GSB Steigband"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Edelstahlgrundgestell",
+                "mobil, auf Rollen",
+                "mit PE- Gliederband, optional mit Gurtband (Preis auf Anfrage)",
+                "mit Auffangwanne",
+                "stufenlos regelbare Förderbandgeschwindigkeit",
+                "umklappbare seitliche Führungsflanken (bei GZB)",
+                "Mitnehmerstege (bei GSB)",
+                "mit Trichter",
+                "verschiedene Bandbreiten, in Abhängigkeit vom jeweiligen Maschinentyp"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Verknüpfung mit dem Pökelinjektor und Steaker",
+                "(Synchronisierung des Förderbandes mit dem Injektor)",
+                "Pumpstation mit Niveau-Überwachung zum Abpumpen des",
+                "aufgefangenen Fleischsafts",
+                "Band motorisch absenkbar",
+                "verschiedene Bandlängen erhältlich",
+                "Sonderbänder, Transportbänder, Schneckenförderer und",
+                "sonstige Förderanlagen auf AnfrageFörderbänder",
+                "GZB Zuführband / GSB Steigband",
+                "sonstige Förderanlagen auf Anfrage"
+              ]
+            }
+          ]
+        },
+        "GZB": {
+          "title": "Förderbänder [Zuführband]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Förderbänder",
+                "GZB Zuführband"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Edelstahlgrundgestell",
+                "mobil, auf Rollen",
+                "mit PE- Gliederband, optional mit Gurtband (Preis auf Anfrage)",
+                "mit Auffangwanne",
+                "stufenlos regelbare Förderbandgeschwindigkeit",
+                "umklappbare seitliche Führungsflanken (bei GZB)",
+                "Mitnehmerstege (bei GSB)",
+                "mit Trichter",
+                "verschiedene Bandbreiten, in Abhängigkeit vom jeweiligen Maschinentyp"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Verknüpfung mit dem Pökelinjektor und Steaker",
+                "(Synchronisierung des Förderbandes mit dem Injektor)",
+                "Pumpstation mit Niveau-Überwachung zum Abpumpen des",
+                "aufgefangenen Fleischsafts",
+                "verschiedene Bandlängen erhältlich",
+                "Sonderbänder, Transportbänder und sonstige Förderanlagen auf Anfrage"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Hebe- und Kippvorrichtungen": {
+      "groups": {
+        "GHK": {
+          "title": "Hebe- und Kippvorrichtungen mit Trichter",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Hebe- und Kippvorrichtungen mit Trichter",
+                "GHK 200 - 200S - 600/800S - 1000"
+              ]
+            },
+            {
+              "title": "Ausstattung GHK 200/ GHK 200S",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "für Normwagen 200 l",
+                "fahrbar, 2 Bockrollen, 2 Lenkrollen mit Bremse",
+                "individuell einsetzbar",
+                "schwere, stabile Ausführung mit hydraulischem Antrieb",
+                "Andockvorrichtung an Injektor, Tumbler oder Arbeitstische usw.",
+                "Trichter und Hubgabel werden mit zwei Hubzylindern separat gesteuert",
+                "(nur bei GHK 200S)",
+                "Auskipphöhe GHK 200 1,15m/ GHK 200S 1,5 m"
+              ]
+            },
+            {
+              "title": "Ausstattung GHK 600/ 800S",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "schwere, massive Ausführung",
+                "mit Andockvorrichtung an den Tumbler",
+                "zur Entleerung von Normbehältern 800x1200 / 600 x 1200 mm",
+                "hydraulisch angetriebene Hebe-Kipp-Bewegung - mit geführter Bewegung",
+                "des Einfülltrichters",
+                "Auskipphöhe 1,6 m zum Betrieb an GPS 2500 bzw. 1,9 m bei GPS 5000"
+              ]
+            },
+            {
+              "title": "Ausstattung GHK 1000",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "schwere stabile Maschinenausführung mit hydraulischem Antrieb",
+                "Hubgabel für 600 bis 1000 kg Stapelbehälter",
+                "für Bodenbefestigung",
+                "Hubgabel mit zwei Hubzylindern und integrierter Auslauftrichter",
+                "Auskipphöhe 1,1 m",
+                "optional verfahrbar"
+              ]
+            }
+          ]
+        },
+        "GSH": {
+          "title": "Hebe- und Kippvorrichtungen mit Trichter",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Hebe- und Kippvorrichtungen mit Trichter",
+                "GHK 200 - 200S - 600/800S - 1000"
+              ]
+            },
+            {
+              "title": "Ausstattung GHK 200/ GHK 200S",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "für Normwagen 200 l",
+                "fahrbar, 2 Bockrollen, 2 Lenkrollen mit Bremse",
+                "individuell einsetzbar",
+                "schwere, stabile Ausführung mit hydraulischem Antrieb",
+                "Andockvorrichtung an Injektor, Tumbler oder Arbeitstische usw.",
+                "Trichter und Hubgabel werden mit zwei Hubzylindern separat gesteuert",
+                "(nur bei GHK 200S)",
+                "Auskipphöhe GHK 200 1,15m/ GHK 200S 1,5 m"
+              ]
+            },
+            {
+              "title": "Ausstattung GHK 600/ 800S",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "schwere, massive Ausführung",
+                "mit Andockvorrichtung an den Tumbler",
+                "zur Entleerung von Normbehältern 800x1200 / 600 x 1200 mm",
+                "hydraulisch angetriebene Hebe-Kipp-Bewegung - mit geführter Bewegung",
+                "des Einfülltrichters",
+                "Auskipphöhe 1,6 m zum Betrieb an GPS 2500 bzw. 1,9 m bei GPS 5000"
+              ]
+            },
+            {
+              "title": "Ausstattung GHK 1000",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "schwere stabile Maschinenausführung mit hydraulischem Antrieb",
+                "Hubgabel für 600 bis 1000 kg Stapelbehälter",
+                "für Bodenbefestigung",
+                "Hubgabel mit zwei Hubzylindern und integrierter Auslauftrichter",
+                "Auskipphöhe 1,1 m",
+                "optional verfahrbar"
+              ]
+            }
+          ]
+        },
+        "Load Master": {
+          "title": "Hebe- und Kippvorrichtungen mit Trichter",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Hebe- und Kippvorrichtungen",
+                "Ersatz für GHK 200 ist Modell NT bzw. NTLT",
+                "Ersatz für GHK 200 S und GSH 200 ist Modell SKV 300 C4T",
+                "Ersatz für GHK 1000 sind die Modelle SD & CD",
+                "Ersatz für GHK 600/800 S ist Modell SK 800 MK2-T",
+                "Ausstattung NT bzw. NTLT / Modell SKV 300 C4T",
+                "komplett aus Edelstahl",
+                "für Normwagen 200 l",
+                "fahrbar, 2 Bockrollen, 2 Lenkrollen mit Bremse",
+                "individuell einsetzbar",
+                "schwere, stabile Ausführung mit hydraulischem Antrieb",
+                "Andockvorrichtung an Injektor, Tumbler oder Arbeitstische usw.",
+                "Trichter und Hubgabel werden mit zwei Hubzylindern separat gesteuert"
+              ]
+            },
+            {
+              "title": "Ausstattung Modell SK 800 MK2-T",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "schwere, massive Ausführung",
+                "mit Andockvorrichtung an den Tumbler",
+                "zur Entleerung von Normbehältern 800x1200 / 600 x 1200 mm",
+                "hydraulisch angetriebene Hebe-Kipp-Bewegung - mit geführter Bewegung",
+                "des Einfülltrichters"
+              ]
+            },
+            {
+              "title": "Ausstattung Modelle SD & CD",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "schwere stabile Maschinenausführung mit hydraulischem Antrieb",
+                "Hubgabel für 600 bis 1000 kg Stapelbehälter",
+                "für Bodenbefestigung",
+                "Hubgabel mit zwei Hubzylindern und integrierter Auslauftrichter",
+                "Fahrbar"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Injektoren Handwerk VK": {
+      "groups": {
+        "GHF": {
+          "title": "Filteranlagen für Pökelinjektoren",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Filteranlagen für Pökelinjektoren",
+                "GHF 200 mittig / GRF 200 - 600 / GBF 200 - 600",
+                "Maschinen zur Aufbewahrung und Reinigung der Lake",
+                "GRF 200 - 600 Rotationsfilteranlagen",
+                "GBF 300 - 600 Bandfilteranlagen"
+              ]
+            },
+            {
+              "title": "Ausstattung GHF und GRF",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "2-Kammer-System",
+                "doppelter Ansaugfilter",
+                "fahrbar",
+                "Auslaufzwickel zur Reinigung",
+                "Anschluss für Lakeaufbereitungsanlage",
+                "vollautomatische Filtration durch rotierende Spaltfiltertrommel",
+                "mit Getriebemotor (bei Typ GRF 200 - 600)"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Antisedimentationseinheit (Pumpe) für Lake: eine zusätzliche",
+                "Doppelmembran- oder Kreiselpumpe hält die Lake in Bewegung",
+                "mit Doppelmembranpumpe (klein) / mit Kreiselpumpe (groß)",
+                "mit Verrohrung zum Ansaugen und Rohrleitung zum Durchmischen im Filterbehälter",
+                "incl. Stecker, Schwimmerschalter zum externen Betrieb an vorhandener Günther Filteranlage",
+                "GRF 200-350 (klein) oder GRF 400-600 (groß)",
+                "Pumpstation ausgestattet mit Ein-/Ausschalter"
+              ]
+            },
+            {
+              "title": "Ausstattung GBF",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "fahrbar",
+                "Auslaufzwickel zur Reinigung",
+                "Anschluss für Lakeaufbereitungsanlage",
+                "automatische Gewebeband-Filtration mit angepasster,",
+                "schrittweiser Abscheidung der Feststoffe incl. Bandspülung",
+                "mit doppeltem Ansaugfilterkasten"
+              ]
+            }
+          ]
+        },
+        "PI": {
+          "title": "Pökelinjektoren",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökelinjektoren",
+                "PI 265 - 17",
+                "Maschinen zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "bedienerfreundliches und ergonomisches Industriedesign",
+                "direkter Antrieb",
+                "Präzisionsnadelköpfe mit Schnellwechsel-Nadelbrücken-System",
+                "geschlossene Linearfederung der Einzelnadel",
+                "vollständige Trennung des gesamten Pumpenkreislaufes von allen",
+                "elektromechanischen Komponenten",
+                "Edelstahl-Kreiselpumpe selbstansaugend als Standardausstattung",
+                "Vorfiltersystem",
+                "Folientastatur",
+                "Nadeln nach Kundenwunsch (3 mm, oder 4 mm)"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "H-Ausführung für Geflügel u. Fisch mit mechanisch verstellbarem Niederhalterbegrenzer",
+                "produktbezogene Pumpenauswahl",
+                "Edelstahl-Drehkolbenpumpe",
+                "Handspritzanschluss komplett",
+                "Integrierter Lakemischer"
+              ]
+            }
+          ]
+        },
+        "PI 265": {
+          "title": "Pökelinjektoren 265 [mm]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökelinjektoren",
+                "PI 265 - 17",
+                "Maschinen zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "bedienerfreundliches und ergonomisches Industriedesign",
+                "direkter Antrieb",
+                "Präzisionsnadelköpfe mit Schnellwechsel-Nadelbrücken-System",
+                "geschlossene Linearfederung der Einzelnadel",
+                "vollständige Trennung des gesamten Pumpenkreislaufes von allen",
+                "elektromechanischen Komponenten",
+                "Edelstahl-Kreiselpumpe selbstansaugend als Standardausstattung",
+                "Vorfiltersystem",
+                "Folientastatur",
+                "Nadeln nach Kundenwunsch (3 mm, oder 4 mm)"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "H-Ausführung für Geflügel u. Fisch mit mechanisch verstellbarem Niederhalterbegrenzer",
+                "produktbezogene Pumpenauswahl",
+                "Edelstahl-Drehkolbenpumpe",
+                "Handspritzanschluss komplett",
+                "Integrierter Lakemischer"
+              ]
+            }
+          ]
+        },
+        "PI 280": {
+          "title": "Pökelinjektoren 280 [mm]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökelinjektoren",
+                "PI 280 - 21 M",
+                "Maschinen zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "bedienerfreundliches und ergonomisches Industriedesign",
+                "direkter Antrieb",
+                "Präzisionsnadelköpfe mit Schnellwechsel-Nadelbrücken-System",
+                "geschlossene Linearfederung der Einzelnadel",
+                "vollständige Trennung des gesamten Pumpenkreislaufes von allen",
+                "elektromechanischen Komponenten",
+                "Vorfiltersystem",
+                "Edelstahl-Kreiselpumpe selbstansaugend als Standardausstattung",
+                "Prozessparameter stufenlos regelbar",
+                "Spezialförderband aus Polyäthylen einfach herausnehmbar",
+                "M-Steuerung mit Display und Tastatursteuerung",
+                "20 Programmplätze",
+                "10-60 Hüben/Minute, stufenlos regelbar",
+                "Stichbildveränderung über mechanische Bandvorschubeinstellung",
+                "Injektionsnadeln (3 mm, oder 4 mm)."
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "H-Ausführung für Geflügel u. Fisch mit mechanisch verstellbarem Niederhalterbegrenzer",
+                "produktbezogene Pumpenauswahl",
+                "Edelstahl-Drehkolbenpumpe",
+                "Auswechselbare Nadelbrücke (Preis nach Nadelanzahl)",
+                "halbautomatische Filteranlage",
+                "Handspritzanschluss komplett",
+                "komplett fahrbar",
+                "Erhöhung zum Ansaugen aus 200l Normwagen"
+              ]
+            }
+          ]
+        },
+        "PI 345": {
+          "title": "Pökelinjektoren 345 [mm]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökelinjektoren",
+                "PI 345 - 26 M / PI 345 - 52",
+                "Maschinen zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "bedienerfreundliches und ergonomisches Industriedesign",
+                "direkter Antrieb",
+                "Präzisionsnadelköpfe mit Schnellwechsel-Nadelbrücken-System",
+                "geschlossene Linearfederung der Einzelnadel",
+                "vollständige Trennung des gesamten Pumpenkreislaufes von allen",
+                "elektromechanischen Komponenten",
+                "Vorfiltersystem",
+                "Edelstahl-Kreiselpumpe selbstansaugend als Standardausstattung",
+                "Prozessparameter stufenlos regelbar",
+                "Spezialförderband aus Polyäthylen einfach herausnehmbar",
+                "M-Steuerung mit Display und Tastatursteuerung",
+                "20 Programmplätze",
+                "10-60 Hüben/Minute, stufenlos regelbar",
+                "Stichbildveränderung über mechanische Bandvorschubeinstellung",
+                "erhöhter Arbeitshub auf 240 mm",
+                "Injektionsnadeln (3 mm, oder 4 mm)."
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "produktbezogene Pumpenauswahl",
+                "Edelstahl-Drehkolbenpumpe",
+                "auswechselbare Nadelbrücke (Preis nach Nadelanzahl)",
+                "halbautomatische Filteranlage",
+                "Handspritzanschluss komplett",
+                "komplett fahrbar"
+              ]
+            }
+          ]
+        },
+        "PI-H 345": {
+          "title": "Pökelinjektoren 345 [mm]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökelinjektoren",
+                "PI 280 - 21 M / PI 345 - 26 M / PI-H 345 - 52 M",
+                "Maschinen zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "bedienerfreundliches und ergonomisches Industriedesign",
+                "direkter Antrieb",
+                "Präzisionsnadelköpfe mit Schnellwechsel-Nadelbrücken-System",
+                "geschlossene Linearfederung der Einzelnadel",
+                "vollständige Trennung des gesamten Pumpenkreislaufes von allen",
+                "elektromechanischen Komponenten",
+                "Vorfiltersystem",
+                "Edelstahl-Kreiselpumpe selbstansaugend als Standardausstattung",
+                "Prozessparameter stufenlos regelbar",
+                "Spezialförderband aus Polyäthylen einfach herausnehmbar",
+                "M-Steuerung mit Display und Tastatursteuerung",
+                "20 Programmplätze",
+                "10-60 Hüben/Minute, stufenlos regelbar",
+                "Stichbildveränderung über mechanische Bandvorschubeinstellung",
+                "PI 52 M ausgestattet mit zusätzlichem Bandantrieb",
+                "Injektionsnadeln (3 mm, oder 4 mm)."
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "H-Ausführung für Geflügel u. Fisch mit mechanisch verstellbarem Niederhalterbegrenzer",
+                "produktbezogene Pumpenauswahl",
+                "Edelstahl-Drehkolbenpumpe",
+                "erhöhter Arbeitshub auf 240 mm",
+                "auswechselbare Nadelbrücke (Preis nach Nadelanzahl)",
+                "halbautomatische Filteranlage",
+                "Handspritzanschluss komplett",
+                "komplett fahrbar",
+                "Erhöhung zum Ansaugen aus 200 L Normwagen (nicht notwendig für PI 52 M)"
+              ]
+            }
+          ]
+        },
+        "PI-H-F 280": {
+          "title": "Pökelinjektoren 280 [mm]",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökelinjektoren",
+                "PI 280 - 21 M / PI 345 - 26 M / PI-H 345 - 52 M",
+                "Maschinen zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "bedienerfreundliches und ergonomisches Industriedesign",
+                "direkter Antrieb",
+                "Präzisionsnadelköpfe mit Schnellwechsel-Nadelbrücken-System",
+                "geschlossene Linearfederung der Einzelnadel",
+                "vollständige Trennung des gesamten Pumpenkreislaufes von allen",
+                "elektromechanischen Komponenten",
+                "Vorfiltersystem",
+                "Edelstahl-Kreiselpumpe selbstansaugend als Standardausstattung",
+                "Prozessparameter stufenlos regelbar",
+                "Spezialförderband aus Polyäthylen einfach herausnehmbar",
+                "M-Steuerung mit Display und Tastatursteuerung",
+                "20 Programmplätze",
+                "10-60 Hüben/Minute, stufenlos regelbar",
+                "Stichbildveränderung über mechanische Bandvorschubeinstellung",
+                "PI 52 M ausgestattet mit zusätzlichem Bandantrieb",
+                "Injektionsnadeln (3 mm, oder 4 mm)."
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "H-Ausführung für Geflügel u. Fisch mit mechanisch verstellbarem Niederhalterbegrenzer",
+                "produktbezogene Pumpenauswahl",
+                "Edelstahl-Drehkolbenpumpe",
+                "erhöhter Arbeitshub auf 240 mm",
+                "auswechselbare Nadelbrücke (Preis nach Nadelanzahl)",
+                "halbautomatische Filteranlage",
+                "Handspritzanschluss komplett",
+                "komplett fahrbar",
+                "Erhöhung zum Ansaugen aus 200 L Normwagen (nicht notwendig für PI 52 M)"
+              ]
+            }
+          ]
+        },
+        "PP": {
+          "title": "Filteranlagen für Pökelinjektoren",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Pökel Profis",
+                "PP 3",
+                "Handpökelgerät zum Injizieren von Fleisch mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Edelstahlgehäuse",
+                "selbstansaugende Pumpe",
+                "Druckanzeige durch Manometer",
+                "1 Nadel 3 mm Standardausrüstung",
+                "zweiter Pistolenanschluss PP 3 (serienmäßig)",
+                "230 V",
+                "Messingchrompistole gegen Aufpreis",
+                "PP 3 standardmäßig mit Messingchrompistole"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Dreierrechen mit 3 Stück 3 mm Nadeln oder 4 mm Nadeln",
+                "Dreierrechen ohne Nadeln",
+                "Zweitanschluss komplett inklusive Schlauch, Verbindungsteile, Metallpistole, Nadel (PP 3)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Injektoren Industrie VK": {
+      "groups": {
+        "GAT": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Abtropftumbler",
+                "GAT 2000 - 3500"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "bedienfreundliches und ergonomisches Industriedesign",
+                "variabler Neigungswinkel",
+                "variable Rotationsgeschwindigkeit",
+                "variable Schikanenanzahl",
+                "verfahrbar",
+                "mit allen Günther-Servo-Injektoren kombinierbar"
+              ]
+            },
+            {
+              "title": "Vorteile dieser Bauart",
+              "bullets": [
+                "weniger Gewichtsverlust",
+                "Reduzierung der sichtbaren Einstiche",
+                "keine freie Lake"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Ausführung motorisch schwenkbar"
+              ]
+            }
+          ]
+        },
+        "GBF": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Filteranlagen für Pökelinjektoren",
+                "GHF 200 mittig / GRF 200 - 600 / GBF 200 - 600",
+                "Maschinen zur Aufbewahrung und Reinigung der Lake",
+                "GRF 200 - 600 Rotationsfilteranlagen",
+                "GBF 300 - 600 Bandfilteranlagen"
+              ]
+            },
+            {
+              "title": "Ausstattung GHF und GRF",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "2-Kammer-System",
+                "doppelter Ansaugfilter",
+                "fahrbar",
+                "Auslaufzwickel zur Reinigung",
+                "Anschluss für Lakeaufbereitungsanlage",
+                "vollautomatische Filtration durch rotierende Spaltfiltertrommel mit Getriebemotor (bei Typ GRF 200 - 600)"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Antisedimentationseinheit ( Pumpe )für Lake: eine zusätzliche Doppelmembran- oder Kreiselpumpe hält die Lake in Bewegung",
+                "mit Doppelmembranpumpe (klein) / mit Kreiselpumpe (groß)",
+                "mit Verrohrung zum Ansaugen und Rohrleitung zum Durchmischen im Filterbehälter",
+                "incl. Stecker, Schwimmerschalter zum externen Betrieb an vorhandener Günther Filteranlage",
+                "GRF 200-350 (klein) oder GRF 400-600 (groß)",
+                "Pumpstation ausgestattet mit Ein-/Ausschalter"
+              ]
+            },
+            {
+              "title": "Ausstattung GBF",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "fahrbar",
+                "Auslaufzwickel zur Reinigung",
+                "Anschluss für Lakeaufbereitungsanlage",
+                "automatische Gewebeband-Filtration mit angepasster, schrittweiser Abscheidung der Feststoffe incl. Bandspülung",
+                "mit doppeltem Ansaugfilterkasten"
+              ]
+            }
+          ]
+        },
+        "GNR": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Nadelreinigungsstationen GNR 365 / 480 / 605",
+                "Anlage zur professionellen Reinigung der kompletten Nadelbrücke",
+                "inkl. Nadeln im Spülverfahren für alle Pökelinjektoren ab PI 54"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "Reinigungsbecken mit Nadelbrückenaufnahme",
+                "Edelstahl- Hochdruckpumpe",
+                "Vorfilter mit Drucküberwachung",
+                "Dosierpumpe für Reinigungsmittel (saugt aus einem Kanister)",
+                "inklusive MC2R Touch Screen zur Ablaufsteuerung der Reinigungsprogramme",
+                "mit 100 Programmplätzen",
+                "automatisches Füllen und Entleeren des gesamten Wasserkreislaufes",
+                "(Wasserwechsel)",
+                "Handspülpistole",
+                "Frischwasseranschluss erforderlich und Bodenablauf erforderlich"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Ultrasonic-System für Nadelreinigungsstation, Reinigung der Injektionsnadeln",
+                "per Ultraschall mit anschließender Wasser- und Druckspülung"
+              ]
+            }
+          ]
+        },
+        "GRF": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Filteranlagen für Pökelinjektoren",
+                "GHF 200 mittig / GRF 200 - 600 / GBF 200 - 600",
+                "Maschinen zur Aufbewahrung und Reinigung der Lake",
+                "GRF 200 - 600 Rotationsfilteranlagen",
+                "GBF 300 - 600 Bandfilteranlagen"
+              ]
+            },
+            {
+              "title": "Ausstattung GHF und GRF",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "2-Kammer-System",
+                "doppelter Ansaugfilter",
+                "fahrbar",
+                "Auslaufzwickel zur Reinigung",
+                "Anschluss für Lakeaufbereitungsanlage",
+                "vollautomatische Filtration durch rotierende Spaltfiltertrommel mit Getriebemotor (bei Typ GRF 200 - 600)"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Antisedimentationseinheit ( Pumpe )für Lake: eine zusätzliche Doppelmembran- oder Kreiselpumpe hält die Lake in Bewegung",
+                "mit Doppelmembranpumpe (klein) / mit Kreiselpumpe (groß)",
+                "mit Verrohrung zum Ansaugen und Rohrleitung zum Durchmischen im Filterbehälter",
+                "incl. Stecker, Schwimmerschalter zum externen Betrieb an vorhandener Günther Filteranlage",
+                "GRF 200-350 (klein) oder GRF 400-600 (groß)",
+                "Pumpstation ausgestattet mit Ein-/Ausschalter"
+              ]
+            },
+            {
+              "title": "Ausstattung GBF",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "fahrbar",
+                "Auslaufzwickel zur Reinigung",
+                "Anschluss für Lakeaufbereitungsanlage",
+                "automatische Gewebeband-Filtration mit angepasster, schrittweiser Abscheidung der Feststoffe incl. Bandspülung",
+                "mit doppeltem Ansaugfilterkasten"
+              ]
+            }
+          ]
+        },
+        "GVT": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Vibrationstisch",
+                "GVT 900"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Variabler Neigungswinkel der Tischtafeln mechanisch",
+                "Verstellbare Vorschubgeschwindigkeit",
+                "Schikanen produktabhängig"
+              ]
+            },
+            {
+              "title": "Vorteile dieser Bauart",
+              "bullets": [
+                "Reduzierung der sichtbaren Einstiche",
+                "Keine freie Lake"
+              ]
+            }
+          ]
+        },
+        "PI 365": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PI 365 - 54/75/105 MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch Asynchron-Servomotor oberhalb des Pökelraums",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Niederhalter und Nadelbrücke auswechselbar für Stichbildänderung",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)"
+              ]
+            },
+            {
+              "title": "Fördereinheit",
+              "bullets": [
+                "direkter Antrieb der Fördereinheit durch Asynchron-Servomotor",
+                "Spezialförderband aus Polyäthylen, zur Reinigung komplett herausnehmbar",
+                "unterschiedliche Vorschübe wählbar (Einfach-, Doppel-, Dreifachstich)"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Programme, Hubhöhe, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filterüberwachung, Stand-by-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "halb- oder vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+                "Reinigungswagen zur Aufnahme von Förderband und Einzelteilen der Filteranlage mit Andockvorrichtung am Injektor"
+              ]
+            }
+          ]
+        },
+        "PI 365 DUO": {
+          "title": "Günther Servo Injektoren 365 [mm] mit MC2R Touch-Screen-Steuerung",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PI 365-54/105 DUO MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch AC-Servomotor oberhalb des Pökelraums",
+                "Antriebskonzept Günther-Reversier Technologie",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit pneumatischer Federung",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Niederhalter und Nadelbrücke auswechselbar für Stichbildänderung",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)",
+                "Zwei unabhängig voneinander angetriebene Nadelköpfe"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezepturverwaltung, Rezeptname, Hubhöhe 40-220 mm, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, verschiedende Stichbilder",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung"
+              ]
+            }
+          ]
+        },
+        "PI 480": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PI 480- 81/124/184 MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch AC-Servomotor oberhalb des Pökelraums",
+                "Antriebskonzept Günther-Reversiertechnologie",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit pneumatischer Federung",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Niederhalter und Nadelbrücke auswechselbar für Stichbildänderung",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)"
+              ]
+            },
+            {
+              "title": "Fördereinheit",
+              "bullets": [
+                "direkter Antrieb der Fördereinheit durch Asynchron-Servomotor",
+                "Spezialförderband aus Polyäthylen, zur Reinigung komplett herausnehmbar",
+                "unterschiedliche Vorschübe wählbar (Einfach-, Doppel-, Dreifachstich)"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezepturverwaltung, Rezeptname, Hubhöhe 40-220 mm , Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb (Leerlaufprogramm), alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung"
+              ]
+            }
+          ]
+        },
+        "PI 480 DUO": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PI 480 - 124/184 Servo DUO MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl, Maschine incl. Bedienpodest"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch AC-Servomotor oberhalb des Pökelraums",
+                "Antriebskonzept Günther-Reversier II",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit pneumatischer Federung",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Niederhalter und Nadelbrücke auswechselbar für Stichbildänderung",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)",
+                "Zwei unabhängig voneinander angetriebene Nadelköpfe"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezepturverwaltung, Rezeptname, Hubhöhe 40-220 mm, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung"
+              ]
+            }
+          ]
+        },
+        "PI 605": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PI 605-156/236/258/354 MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch AC-Servomotor oberhalb des Pökelraums",
+                "Antriebskonzept Günther-Reversier Technologie",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit pneumatischer Federung",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Niederhalter und Nadelbrücke auswechselbar für Stichbildänderung",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)"
+              ]
+            },
+            {
+              "title": "Fördereinheit",
+              "bullets": [
+                "direkter Antrieb der Fördereinheit durch Asynchron-Servomotor",
+                "Spezialförderband aus Polyäthylen, zur Reinigung komplett herausnehmbar",
+                "unterschiedliche Vorschübe wählbar (Einfach-, Doppel-, Dreifachstich)"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezepturverwaltung, Rezeptname, Hubhöhe 40-220 mm , Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb (Leerlaufprogramm), alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)"
+              ]
+            }
+          ]
+        },
+        "PI 605 DUO": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PI 605 - 156/236/258 Servo DUO MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl, Maschine incl. Bedienpodest"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch AC-Servomotor oberhalb des Pökelraums",
+                "Antriebskonzept Günther-Reversier II",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit pneumatischer Federung",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Niederhalter und Nadelbrücke auswechselbar für Stichbildänderung",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)",
+                "Zwei unabhängig voneinander angetriebene Nadelköpfe"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezepturverwaltung, Rezeptname, Hubhöhe 40-220 mm, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung"
+              ]
+            }
+          ]
+        },
+        "PI-H 900": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ® - Hähnchen",
+                "PI-H 900- 630-2 MC2R",
+                "Spezialmaschine für Hähnchen und Hähnchenteile mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch AC-Servomotor oberhalb des Pökelraums",
+                "Antriebskonzept Günther-Reversier Technologie",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit",
+                "pneumatischer Federung",
+                "Nadelfederdruck mechanisch oder pneumatisch regelbar",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)"
+              ]
+            },
+            {
+              "title": "Fördereinheit",
+              "bullets": [
+                "direkter Antrieb der Fördereinheit durch Asynchron-Servomotor",
+                "Spezialförderband aus Polyäthylen, zur Reinigung komplett herausnehmbar",
+                "unterschiedliche Vorschübe wählbar (Einfach-, Doppel-, Dreifachstich)"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezeptverwaltung, Rezeptname, Hubhöhe 40-170 mm, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung"
+              ]
+            }
+          ]
+        },
+        "PI-H-F": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ® - Fisch",
+                "PI-H-F 605 - 649 MC2R",
+                "Maschinen speziell zum Injizieren von Fisch"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "Spezialförderband aus Polyäthylen, zur Reinigung herausnehmbar",
+                "Antriebskonzept Günther-Reversier II Technologie",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung",
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl",
+                "bzw. Förderleistung",
+                "Nadelbrücke komplett zur Reinigung herausnehmbar",
+                "direkter Antrieb des Nadelbalkens durch AC-Servomotor oberhalb des Pökelraums",
+                "direkter Servoantrieb der Fördereinheit",
+                "Nadelbalkensystem mit Blockeinspeisung",
+                "Standardausführung: mit starren Nadeln",
+                "Niederhalterhöhe einstellbar"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezeptverwaltung, Rezeptname, Hubhöhe 40-170 mm, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+                "Reinigungswagen zur Aufnahme von Förderband und Einzelteilen der Filteranlage mit Andockvorrichtung am Injektor"
+              ]
+            }
+          ]
+        },
+        "PIH 365": {
+          "title": "Filteranlagen (Bandfilteranlagen)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Servo Injektoren ®",
+                "PIH 365 - 210 MC2R",
+                "Maschinen zum Injizieren von Produkten mit und ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Maschine komplett aus Edelstahl"
+              ]
+            },
+            {
+              "title": "Nadelbalken",
+              "bullets": [
+                "direkter Antrieb durch Asynchron-Servomotor oberhalb des Pökelraums",
+                "Schnellwechsel-Nadelbrücken-System",
+                "Nadelbalkensystem mit Blockeinspeisung mit pneumatischer Federung",
+                "Nadel- und Niederhalterdruck pneumatisch regelbar",
+                "Reversierbetrieb (wählbarer Stoppunkt oberhalb des Förderbandes)"
+              ]
+            },
+            {
+              "title": "Fördereinheit",
+              "bullets": [
+                "direkter Antrieb der Fördereinheit durch Asynchron-Servomotor",
+                "Spezialförderband aus Polyäthylen, zur Reinigung komplett herausnehmbar",
+                "unterschiedliche Vorschübe wählbar",
+                "50/80 Hübe pro Minute"
+              ]
+            },
+            {
+              "title": "Lakesystem",
+              "bullets": [
+                "Edelstahl-Kreiselpumpe mit elektr. stufenloser Regelung der Drehzahl bzw. Förderleistung",
+                "Lakevorfilter (Zwangsfilter) mit Drucküberwachung",
+                "Lakesteuerung mit Positionserkennung und Injektionsweg-Vorgabe"
+              ]
+            },
+            {
+              "title": "Steuerung",
+              "bullets": [
+                "MC2R Touch-Screen-Steuerung",
+                "100 Programmplätze für kundenspezifische Rezepte mit: Rezepturverwaltung, Rezeptname, Hubhöhe, Nadelbalkengeschwindigkeit, Förderbandgeschwindigkeit, Einweg-Zweiwegspritzung, Lakedruck, Stichbild",
+                "automatisches Reinigungsprogramm, Filter-Verschmutzungsüberwachung, Stand-By-Betrieb und Leerlaufprogramm, alle Betriebs- und Störmeldungen im Grafik-Display mit visueller Darstellung",
+                "USB-Druckeranschluss, Ethernet-Schnittstelle zur Anbindung an Standard-Injektoren",
+                "Schaltschrank spritzwasserdicht und klimatisiert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "vollautomatische Filteranlage/ Bandfilteranlage zum Betrieb notwendig",
+                "produktbezogene Pumpenauswahl",
+                "auswechselbare Nadelbrücke mit Nadeln und/ oder Steaker-Messern (siehe auch Günther Steaker)",
+                "automatischer Inlinefilter",
+                "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+                "dynamischer Hubhöhenbetrieb"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Kühl- und Heizgeräte VK": {
+      "groups": {
+        "GSK": {
+          "title": "Solekühl- oder Heizgerät bzw. Kombigerät",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Solekühl- oder Heizgerät bzw. Kombigerät",
+                "GSK 2 - GSK 18",
+                "Zum Kühlen von Tumblerbehältern oder Lakemischern bzw. Auftauen in Günther-Tumblern"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Kompaktbauweise aus Edelstahl",
+                "zwei Kreislaufsysteme (Kältemittel und Kühlsole/ Wärmemedium)",
+                "integrierter Wärmetauscher",
+                "druckloser Vorratsbehälter für Kühl-/Heizsole mit Füllstandsüberwachung",
+                "Soleförderpumpe",
+                "Kältekompressor",
+                "integrierte Steuerung",
+                "Temperaturregelung",
+                "ggf. Spezial-Heizsystem, thyristorgeregelt im Durchflussverfahren",
+                "intelligente Kühlregulierung und/oder Heizregulierung",
+                "lückenlose Prozessdokumentationen auf internem Speicher der Steuerung"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Messersteaker": {
+      "groups": {
+        "GTK": {
+          "title": "Messersteaker",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Messersteaker",
+                "GTK 365 - 480 - 605",
+                "Maschinen zum Steakern (Durchstechen) von Fleisch ohne Knochen"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "Edelstahlgrundgestell auf Rollen",
+                "PE- Gliederband mit Servoantrieb",
+                "Spezialmesser aus Edelstahl",
+                "direkter Antrieb oberhalb des Produktes",
+                "MC2R Touch-Screen-Steuerung",
+                "Arbeitshöhe frei wählbar von 40 bis 220 mm",
+                "Stichbild mit Einfach- , Doppel- und Dreifachstich",
+                "Geschwindigkeit wird synchronisiert mit vorhandenem/",
+                "vorgeschalteten Günther-Pökelinjektor"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Software": {
+      "groups": {
+        "Günther Pilot": {
+          "title": "Software",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Pilot",
+                "Zentraler Datenmanager GÜNTHER-LOG für einzelne Maschinen und für ganze Produktionslinien zur Qualitätssicherung und Prozessoptimierung.",
+                "Clientbasierte Auswertungssoftware GÜNTHER-VIEW zur Analyse der aufgenommen Produktionsdaten.",
+                "Günther-Pilot",
+                "Datenmanager mit Auswertungssoftware zur Verwaltung und Kontrolle relevanter Produktionsdaten jeder einzelnen Maschine",
+                "chargengebundene Speicherung der Produktionsdaten",
+                "grafische Darstellung und Export (z.B. Excel-Format) der aufgenommenen Daten zur Qualitäts- und Fehleranalyse",
+                "Datensicherung der lokalen Rezepturen jeder einzelnen Maschine",
+                "Verwaltung der Rezepturdaten innerhalb der Produktionslinie"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Solevorbereitung VK": {
       "groups": {
         "GLA": {
-          "title": "GLA – Lorem ipsum group title",
+          "title": "Lake-und Aufbereitungsanlagen",
           "sections": [
-            { "title": "Beschreibung", "bullets": ["Lorem ipsum dolor sit amet.", "Consectetur adipiscing elit."] },
-            { "title": "Ausrüstung", "bullets": ["Ut enim ad minim veniam."] }
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Lake- Aufbereitungsanlagen",
+                "GLA 300 - 600",
+                "Lakemischer zum mechanischen Mischen von Flüssigkeiten"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "anschlussfertig für alle Günther Filteranlagen und Pökelinjektoren",
+                "Rundbehälter mit Auslaufzwickel",
+                "Rührwerk zum Verteilen der Lake",
+                "Scheibenventil am Auslauf",
+                "Anschlusswerte: 400V -16A 3PH/PE"
+              ]
+            }
+          ]
+        },
+        "GLT": {
+          "title": "Lake-und Aufbereitungsanlagen",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Lake-Vorratstanks",
+                "GLT 1000 - 2000",
+                "Pökel und Gewürzlaketanks"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "internes Kreislaufmischsystem",
+                "anschlussfertig für alle Günther Filteranlagen und Pökelinjektoren",
+                "Lakeförderung mittels leistungsstarker Edelstahl-Kreiselpumpe zur externen Entleerung",
+                "Füllstandanzeige"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Kühlmantel mit Isolierung",
+                "externes Solekühlgerät erforderlich",
+                "Ausrüstung mit Wiegezellen",
+                "pneumatische Ventilsteuerung für automatische Befüllung der",
+                "Filteranlage des Injektors (über Füllstandüberwachung) sowie der",
+                "Möglichkeit einer externen Entleerung zum Vorratsbehälter",
+                "Grundausstattung 2 Ventile (1x Mischventil, 1x Förderventil)",
+                "zusätzliches Ventil per Ausgang bei mehreren Abnehmern",
+                "(nur in Verbindung mit pneumatischer Ventilsteuerung)",
+                "Aufpreis für Edelstahl-Drehkolbenpumpe (Austauschpreis)",
+                "Aufpreis für Becherrührwerk"
+              ]
+            }
+          ]
+        },
+        "GMA": {
+          "title": "Lake-und Aufbereitungsanlagen",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Saugstrom-Mischanlagen",
+                "GMA 400 - 2000",
+                "Saugstrommischer und Dosiermischer zum Herstellen von Pökel- und Gewürzlaken",
+                "Ausstattung:",
+                "anschlussfertig für alle Günther Filteranlagen und Pökelinjektoren",
+                "Saugstromprinzip zur schnellen Vermischung von verschiedenen konsistenten Flüssigkeiten",
+                "problemloses, schnelles Vermischen von viskosen Feststoffen und Flüssigkeiten in Wasser möglich",
+                "Lakeförderung mittels leistungsstarker Edelstahl-Kreiselpumpe zum Verbrauchsort",
+                "Füllstandanzeige",
+                "Anschlusswerte: 400V -16A 3PH/PE"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Kühlmantel mit Isolierung",
+                "externes Solekühlgerät erforderlich",
+                "Wiegezellen, incl. MC2R Steuerung und Rezepturverwaltung",
+                "pneumatische Ventilsteuerung für automatische Befüllung der",
+                "Filteranlage des Injektors (über Füllstandüberwachung) sowie der",
+                "Möglichkeit einer externen Entleerung zum Vorratsbehälter",
+                "zusätzliches Ventil per Ausgang bei mehreren Abnehmern",
+                "(nur in Verbindung mit pneumatischer Ventilsteuerung)",
+                "Edelstahl-Drehkolbenpumpe (Aufpreis)"
+              ]
+            }
+          ]
+        },
+        "GRK": {
+          "title": "Lake-und Aufbereitungsanlagen",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Rohrkühler",
+                "Wärmetauscher zum Kühlen von Lake, Soßen etc. im Durchlaufverfahren"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "bestehend aus dem Gegenstromprinzip",
+                "der Wärmetauscher ist sowohl zum Anschluss an ein bauseitig vorhandenes",
+                "Kühlsystem, als auch an eine Günther-Kühlmaschine konzipiert",
+                "Steuerungspakete für GRK",
+                "Steuerungspaket für Stand- Alone- Betrieb",
+                "unabhängig von Anzahl der Rohrbündel",
+                "Edelstahlschaltschrank",
+                "drehzahlgesteuerte Kreiselpumpe",
+                "Temperaturregler mit Temperatursensoren",
+                "elektrischer Kugelhahn für Solekreislauf"
+              ]
+            },
+            {
+              "title": "Option",
+              "bullets": [
+                "Steuerungspaket für Linienbetrieb 2"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Sonderspannung": {
+      "groups": {
+        "Sonderspannung": {
+          "title": "Sonderspannung",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Sonderspannung"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Tumbler Handwerk VK": {
+      "groups": {
+        "GPA": {
+          "title": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Tumbler / Poltermaschinen mit oder ohne Doppelmantel für K oder K-H Version",
+                "GPA 100 - 200 - 300 - 600 (K & K-H)"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "stehende, schwenkbare Zylindermaschine mit sich drehender Trommel",
+                "automatisches Deckelöffnungs- und Schließungssystem ab GPA 200",
+                "Vakuumpumpe für Intervall- oder Dauervakuum",
+                "elektronisch stufenlose Geschwindigkeitsregelung der Trommel,",
+                "Einstellung über die Steuerung",
+                "stufenlose Neigungsverstellung des Behälters über Hubspindelmotor",
+                "mit MC2R Touch Screen Steuerung (serienmäßig)",
+                "100 Programmspeicherplätze für die Bearbeitung von Koch- und Rohpökelwaren",
+                "die MC2R Steuerung bietet eine einfache Menüführung, komfortable Programmverwaltung, Verwaltung und Dokumentation der Arbeitsabläufe, umfangreiche Diagnose-Tools, Fernwartung, hochgenaue Temperaturregelung durch Solekühlung.",
+                "alle Prozessparameter sind frei steuer- und programmierbar, wie beispielsweise: Vorlauf-, Arbeits- und Pausenzeit, Vakuum, Temperatur, Neigungswinkel, Geschwindigkeit, wählbare Drehrichtung.",
+                "Besonderheit: die gewünschte Produktionsendzeit ist frei wähl- und voreinstellbar, d. h., jegliche zeitliche Vorkalkulation hinsichtlich Produktionsbeginn, Standzeit usw. entfällt!",
+                "K- bzw. K/H- Ausführung",
+                "der gesamte Behälter mit Solekühl- bzw. Heizmantel und Isolierung",
+                "Interne Kühlmaschine",
+                "Externes Heizaggregat",
+                "GPA 100 keine Kühlung möglich"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Wiegezellen (4 St.) für GPA 300 - 600",
+                "Externe Säulenbeschickung fahrbar Load Master ( GPA 300 / 600 )"
+              ]
+            }
+          ]
+        },
+        "GPM": {
+          "title": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Tumbler / Polter- und Mengmaschinen mit oder ohne Mantelkühlung",
+                "GPM 100 - 600 (K)"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "Stehende, schwenkbare Zylindermaschine",
+                "Inklusive Polterarm mit Abstreifer mit Schnellwechselsystem",
+                "Hochleistungs-Vakuumpumpe",
+                "Touch-Screen-Steuerung für 99 Programme",
+                "Alle Prozessparameter sind frei steuer- und programmierbar, wie beispielsweise:",
+                "Umdrehungsgeschwindigkeit des Armes (stufenlos)",
+                "Arbeits- und Pausenzeiten",
+                "Vakuum (Intervall- und Dauervakuum/ Intensität)",
+                "Neigungswinkel der Trommel",
+                "Temperatur (bei K-Option)",
+                "GPM 100 und GPM 200 verfahrbar, ab Model GPM 300 feststehend",
+                "ausgestattet mit automatischem Deckel ab GPM 600 (K-Version)"
+              ]
+            },
+            {
+              "title": "K-Ausführung",
+              "bullets": [
+                "Edelstahl-Direktkühlsystem inkl. Isolierung",
+                "GPM 100 mit externer Kühleinheit"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "GPM 300 und GPM 600 externe Säulenbeschickung Load Master fahrbar für 200-l-Kutterwagen"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Tumbler Industrie VK": {
+      "groups": {
+        "GPB": {
+          "title": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Tumbler / Poltermaschinen mit oder ohne Doppelmantel",
+                "GPB 1500 - 2200 - 4000 - 5500 - 7000 - 10000 (K)"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "3-Punkt gelagerte Trommel mit großer Be- und Entladeöffnung",
+                "die gesamte Befüllmenge kann in der Beladestellung entweder",
+                "mechanisch bei geöffnetem Deckel oder über Vakuum bei geschlossenem",
+                "Deckel eingebracht werden",
+                "der Entleerungsvorgang erfolgt zügig durch Auswurfschikanen mit guter Restentleerung",
+                "Trommelgeometrie mit großem Umfang",
+                "asymmetrische Schikanen mit Wechselwirkung",
+                "moderne Touch-Screen-Steuerung mit grafisch geführter Bedienung und Programmierung",
+                "100 Programme, mit jeweils bis zu 10 Arbeitsschritten",
+                "alle Prozessparameter sind frei steuer- und programmierbar, wie z.B. Vorlauf-, Arbeits- und Pausenzeiten, Vakuum, Temperatur, Geschwindigkeit, wählbare Drehrichtung",
+                "einfache Menüführung, komfortable Rezepturverwaltung, Verwaltung und Dokumentation der Arbeitsabläufe, umfangreiche Diagnosetools, Fernwartung, hochgenaue Temperaturführung durch Solekühlung",
+                "Besonderheit: die gewünschte Produktionsendzeit ist frei wähl- und voreinstellbar, d.h. jegliche zeitliche Vorkalkulation hinsichtlich Produktionsbeginn, Standzeit usw. entfällt"
+              ]
+            },
+            {
+              "title": "K- Ausführung",
+              "bullets": [
+                "der gesamte Behälter mit Solekühlmantel und Isolierung",
+                "ausgestattet ohne Kühlaggregat jedoch mit einem Zwischenkühlkreislauf mit Plattenwärmetauscher, Tank und Förderpumpe - Kühlmedium durch Kunden"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Solekühlgerät, integriert oder als externes Gerät (für K- Version)",
+                "integrierte Wiegezellen",
+                "kabellose Temperaturüberwachung des Produktes (nicht nachrüstbar!)",
+                "Produktdatenerfassung und kundenspezifische Datenauswertung"
+              ]
+            }
+          ]
+        },
+        "GPS 5000-10000": {
+          "title": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Schwenkbare Poltermaschinen mit oder ohne Doppelmantel für K, H oder K-H Version",
+                "GPS 5000 - 10000 (K & K-H)"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "3-Punkt gelagerte Trommel mit großer Be- und Entladeöffnung",
+                "hoher Nutzungsfaktor von bis zu 70% des Trommelvolumens",
+                "die gesamte Befüllmenge kann in der Beladestellung entweder",
+                "mechanisch bei geöffnetem Deckel oder über Vakuum bei geschlossenem",
+                "Deckel eingebracht werden",
+                "der Entleerungsvorgang erfolgt zügig, produktschonend und durch",
+                "Vorwärtsneigung der Trommel dosierbar",
+                "leichte Reinigung mit guter Restentleerung",
+                "Trommelgeometrie mit großem Umfang",
+                "asymmetrische Schikanen mit Wechselwirkung",
+                "ausgestattet mit automatischem Deckelöffnungs- und Schließungssystem (hydraulisch)",
+                "moderne MC2RTouch-Screen-Steuerung mit grafisch geführter Bedienung und Programmierung",
+                "100 Programme, mit jeweils bis zu 10 Arbeitsschritten",
+                "alle Prozessparameter sind frei steuer- und programmierbar, wie z.B. Vorlauf-, Arbeits- und Pausenzeiten, Vakuum, Temperatur, Neigungswinkel, Geschwindigkeit, wählbare Drehrichtung",
+                "einfache Menüführung, komfortable Rezepturverwaltung, Verwaltung und Dokumentation der Arbeitsabläufe, umfangreiche Diagnosetools, Fernwartung, hochgenaue Temperaturführung durch Solekühlung",
+                "die gewünschte Produktionsendzeit ist frei wähl- und voreinstellbar, d.h. jegliche zeitliche Vorkalkulation hinsichtlich Produktionsbeginn, Standzeit usw. entfällt",
+                "K- bzw. H- Ausführung mit Mantelkühlung",
+                "der gesamte Behälter mit Solekühl- bzw. Heizmantel und Isolierung",
+                "ausgestattet ohne Kühl- bzw- Heizaggregat"
+              ]
+            }
+          ]
+        },
+        "GPS 900-3000": {
+          "title": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Schwenkbare Poltermaschinen mit oder ohne Doppelmantel für Kühlen, Heizen oder Kühen und Heizen GPS 900 - 1250 - 2500 - 3000 (K & K-H)"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "3-Punkt gelagerte Trommel mit großer Be- und Entladeöffnung",
+                "hoher Nutzungsfaktor von bis zu 70% des Trommelvolumens",
+                "die gesamte Befüllmenge kann in der Beladestellung entweder",
+                "mechanisch bei geöffnetem Deckel oder über Vakuum bei geschlossenem",
+                "Deckel eingebracht werden",
+                "der Entleerungsvorgang erfolgt zügig, produktschonend und durch",
+                "Vorwärtsneigung der Trommel dosierbar",
+                "leichte Reinigung mit guter Restentleerung",
+                "Trommelgeometrie mit großem Umfang",
+                "asymmetrische Schikanen mit Wechselwirkung",
+                "Moderne MC2R Touch-Screen-Steuerung mit grafisch geführter Bedienung und Programmierung",
+                "100 Programme, mit jeweils bis zu 10 Arbeitsschritten",
+                "alle Prozessparameter sind frei steuer- und programmierbar, wie z.B. Vorlauf-, Arbeits- und Pausenzeiten, Vakuum, Temperatur, Neigungswinkel, Geschwindigkeit, wählbare Drehrichtung",
+                "einfache Menüführung, komfortable Rezepturverwaltung, Verwaltung und Dokumentation der Arbeitsabläufe, umfangreiche Diagnosetools, Fernwartung, hochgenaue Temperaturführung durch Solekühlung",
+                "Besonderheit: die gewünschte Produktionsendzeit ist frei wähl- und voreinstellbar, d.h. jegliche zeitliche Vorkalkulation hinsichtlich Produktionsbeginn, Standzeit usw. entfällt"
+              ]
+            },
+            {
+              "title": "K- bzw. H- Ausführung",
+              "bullets": [
+                "der gesamte Behälter mit Solekühl- bzw. Heizmantel und Isolierung",
+                "integrierte Kühlung bei K Version",
+                "Heizelement integriert"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "automatisches Deckelöffnungs- und Schließungssystem (hydraulisch)",
+                "integrierte Wiegezellen (4 Stück), mit Auswerteelektronik",
+                "Produktdatenerfassung und kundenspezifische Datenauswertung Günther Pilot"
+              ]
+            }
+          ]
+        },
+        "GRT": {
+          "title": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Schwenkbare Poltermaschinen mit Doppelmantel mit Kühlung",
+                "GRT 1250 K"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "3-Punkt gelagerte Trommel mit großer Be- und Entladeöffnung",
+                "hoher Nutzungsfaktor von bis zu 70% des Trommelvolumens",
+                "die gesamte Befüllmenge kann in der Beladestellung entweder",
+                "mechanisch bei geöffnetem Deckel oder über Vakuum bei geschlossenem",
+                "Spezielle Schikanengometrie",
+                "Deckel eingebracht werden",
+                "der Entleerungsvorgang erfolgt zügig, produktschonend und durch",
+                "Vorwärtsneigung der Trommel dosierbar",
+                "leichte Reinigung mit guter Restentleerung",
+                "Trommelgeometrie mit großem Umfang",
+                "asymmetrische Schikanen mit Wechselwirkung",
+                "Moderne MC2R Touch-Screen-Steuerung mit grafisch geführter Bedienung und Programmierung",
+                "100 Programme, mit jeweils bis zu 10 Arbeitsschritten",
+                "alle Prozessparameter sind frei steuer- und programmierbar, wie z.B. Vorlauf-, Arbeits- und Pausenzeiten, Vakuum, Temperatur, Neigungswinkel, Geschwindigkeit, wählbare Drehrichtung",
+                "einfache Menüführung, komfortable Rezepturverwaltung, Verwaltung und Dokumentation der Arbeitsabläufe, umfangreiche Diagnosetools, Fernwartung, hochgenaue Temperaturführung durch Solekühlung",
+                "Besonderheit: die gewünschte Produktionsendzeit ist frei wähl- und voreinstellbar, d.h. jegliche zeitliche Vorkalkulation hinsichtlich Produktionsbeginn, Standzeit usw. entfällt"
+              ]
+            },
+            {
+              "title": "K- Ausführung",
+              "bullets": [
+                "der gesamte Behälter mit Solekühl Isolierung",
+                "ausgestattet Kühlaggregat"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "automatisches Deckelöffnungs- und Schließungssystem (hydraulisch)",
+                "integrierte Wiegezellen (4 Stück), mit Auswerteelektronik",
+                "Produktdatenerfassung und kundenspezifische Datenauswertung Günther Pilot"
+              ]
+            }
+          ]
+        },
+        "GTT": {
+          "title": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Auftautechnologie",
+                "GTT",
+                "Zum Auftauen von gefrorenen Produkten in Tumblerbehältern"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "spezieller Trommeldeckel mit zentrischem Anschluss",
+                "für Vakuum, Temperatursensor, Wasserzufuhr sowie alle nötigen",
+                "Ventile, Kabel- und Schlauchverbindungen",
+                "freistehender Durchlauferhitzer für Temperaturen bis zu 70 °C",
+                "Förderpumpe für die Lake",
+                "elektronische Temperatur- und Durchflussüberwachung",
+                "in Verbindung mit Günther Heizmaschine siehe Seite zuvor",
+                "Mit GLA (GPS 900H - 1250H - 2500H mit GLA 300; GPS 3000H - 10000H mit GLA 600) alternativ",
+                "Heizelement zum Erhitzen von Salzlake und sonstigen Flüssigkeiten",
+                "Mit Deckelüberwachung",
+                "Mit elektronischer Ansteuerung",
+                "passend zu Behälter bzw. Vorratsbehälter der Typenreihe GLA - GMA",
+                "Verknüpfung an Tumbler mittels Steuerleitung möglich"
+              ]
+            }
+          ]
+        },
+        "GVB": {
+          "title": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Günther Vakuumbeschickungsanlagen",
+                "GVB 1000 - 7000",
+                "Anlage zur Beschickung der Tumbler GPS und GPB"
+              ]
+            },
+            {
+              "title": "Ausstattung",
+              "bullets": [
+                "komplett aus Edelstahl",
+                "Trichter mit Auslaufzwickel DN 150 oder DN 200",
+                "Fußausführung mit Hubwagenaufnahme",
+                "Abgangsstutzen drehbar DN 150 oder DN 200 mit Schlauchbogenverbindung",
+                "Anschlussstutzen für Tumblerdeckel DN 150 oder DN 200 mit Schnellverschluss"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "fahrbar, 2 Bockrollen ohne Bremse, 2 Lenkrollen mit Bremse,",
+                "komplett Edelstahl",
+                "Abgangsrohr DN 200 mm auf Anfrage",
+                "GPS: Kugelhahn: Edelstahl-Kugel in Kunststoffgehäuse",
+                "Deckel mit Kugelhahn DN 150 oder DN 200- Edelstahl-Kugel in Kunststoffgehäuse",
+                "fahrbares Bedienpodest für Kugelhahn",
+                "Aufpreis für Wiegezellen GVB 1000 - 2000",
+                "Aufpreis für Wiegezellen GVB 3000 - 7000",
+                "Zusatzausstattung mit Aufpreis für GVB-Andockung Tumbler / DN 150´/ DN 200",
+                "1. für Baureihe GPS/ GPB: Ansaugschlauch mit integriertem (Kunststoff)-Kugelhahn, Ankopplungsvorrichtung an GPS und Ankopplung an GVB, DN 150 mm , DN 200",
+                "2. für Baureihe GPS/ GPB: Deckel mit Kugelhahn DN 150 / DN 200 - Edelstahl-Kugel in Kunststoffgehäuse",
+                "3. GVB verfahrbar"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Walzensteaker & Fleischpresse": {
+      "groups": {
+        "GP": {
+          "title": "Walzensteaker & Fleischpresse",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Walzensteaker & Fleischpresse"
+              ]
+            },
+            {
+              "title": "GT 400S - GT 600S",
+              "bullets": [
+                "Maschinen zum Steakern (Einschneiden der Oberfläche) von Fleisch ohne Knochen",
+                "komplett aus Edelstahl und hochwertigen, lebensmittelechten Kunststoff",
+                "schnell und einfach zerlegbar zur Reinigung",
+                "Zuführband leicht herausnehmbar",
+                "Andockvorrichtung an Günther-Injektoren",
+                "obere Messerwalze passt sich automatisch der Fleischdicke an",
+                "Schnitttiefe stufenweise einstellbar",
+                "Messerkraft pneumatisch einstellbar",
+                "Schnitttiefe bis 16 mm über Band",
+                "Entleerung in 200l-Kutterwagen unterhalb der Maschine",
+                "die beiden Messerwalzen können ohne Werkzeug entnommen werden",
+                "GP 600S",
+                "Fleischpresse zur vergrößerung der Oberfläche zur besseren Proteinextraktion"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Mitnehmerwalze zum nur einseitigen Steakern z.b Bacon",
+                "Aufpreis für Ausführung als Presse"
+              ]
+            }
+          ]
+        },
+        "GT": {
+          "title": "Walzensteaker & Fleischpresse",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Walzensteaker & Fleischpresse"
+              ]
+            },
+            {
+              "title": "GT 400S - GT 600S - GP 600S",
+              "bullets": [
+                "Maschinen zum Steakern (Einschneiden der Oberfläche) von Fleisch ohne Knochen",
+                "komplett aus Edelstahl und hochwertigen, lebensmittelechten Kunststoff",
+                "schnell und einfach zerlegbar zur Reinigung",
+                "Zuführband leicht herausnehmbar",
+                "Andockvorrichtung an Günther-Injektoren",
+                "obere Messerwalze passt sich automatisch der Fleischdicke an",
+                "Schnitttiefe stufenweise einstellbar",
+                "Messerkraft pneumatisch einstellbar",
+                "Schnitttiefe bis 16 mm über Band",
+                "Entleerung in 200l-Kutterwagen unterhalb der Maschine",
+                "die beiden Messerwalzen können ohne Werkzeug entnommen werden"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Mitnehmerwalze zum nur einseitigen Steakern z.b Bacon",
+                "Aufpreis für Ausführung als Presse"
+              ]
+            }
+          ]
+        },
+        "GTR": {
+          "title": "Walzensteaker & Fleischpresse",
+          "sections": [
+            {
+              "title": "Beschreibung",
+              "bullets": [
+                "Walzensteaker & Fleischpresse"
+              ]
+            },
+            {
+              "title": "GT 400S - GT 600S - GP 600S",
+              "bullets": [
+                "Maschinen zum Steakern (Einschneiden der Oberfläche) von Fleisch ohne Knochen",
+                "komplett aus Edelstahl und hochwertigen, lebensmittelechten Kunststoff",
+                "schnell und einfach zerlegbar zur Reinigung",
+                "Zuführband leicht herausnehmbar",
+                "Andockvorrichtung an Günther-Injektoren",
+                "obere Messerwalze passt sich automatisch der Fleischdicke an",
+                "Schnitttiefe stufenweise einstellbar",
+                "Messerkraft pneumatisch einstellbar",
+                "Schnitttiefe bis 16 mm über Band",
+                "Entleerung in 200l-Kutterwagen unterhalb der Maschine",
+                "die beiden Messerwalzen können ohne Werkzeug entnommen werden"
+              ]
+            },
+            {
+              "title": "Zusatzausstattung mit Aufpreis",
+              "bullets": [
+                "Mitnehmerwalze zum nur einseitigen Steakern z.b Bacon",
+                "Aufpreis für Ausführung als Presse"
+              ]
+            }
           ]
         }
       }
