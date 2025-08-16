@@ -31,7 +31,7 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  // Chips-Steuerung
+  // Chips-Steuerung (Desktop-Logik beibehalten)
   const [catExpanded, setCatExpanded] = useState(false)
   const [grpExpanded, setGrpExpanded] = useState(false)
   const [catPage, setCatPage] = useState(0)
@@ -115,7 +115,7 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
   return (
     <div>
       {/* Kategorie-Chips */}
-      <div className="flex items-center gap-2 flex-wrap mb-3">
+      <div className="flex flex-wrap items-center gap-2 mb-3 w-full">
         <button
           onClick={() => setCategory('all')}
           className={`px-3 py-1 rounded-full border ${category==='all'?'bg-slate-900 text-white':'border-slate-300'}`}
@@ -133,9 +133,9 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
           </button>
         ))}
 
-        {/* Paging (eingeklappt) */}
+        {/* Paging (eingeklappt) – auf Mobile immer in EIGENER Zeile (bricht um) */}
         {!catExpanded && categories.length > VISIBLE_CHIPS && (
-          <div className="ml-auto flex items-center gap-2">
+          <div className="basis-full flex items-center gap-2 justify-end sm:basis-auto sm:ml-auto">
             <button
               className="px-2 py-1 rounded border text-xs"
               onClick={() => setCatPage(p => Math.max(0, p - 1))}
@@ -154,16 +154,19 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
           </div>
         )}
 
-        {/* Toggle */}
+        {/* Toggle – auf Mobile auch in EIGENER Zeile */}
         {categories.length > VISIBLE_CHIPS && (
-          <button className="underline text-xs ml-2" onClick={() => setCatExpanded(v => !v)}>
+          <button
+            className="underline text-xs basis-full text-right sm:basis-auto sm:text-left sm:ml-2"
+            onClick={() => setCatExpanded(v => !v)}
+          >
             {catExpanded ? t('show_less') : t('show_more')}
           </button>
         )}
       </div>
 
       {/* Gruppen-Chips */}
-      <div className="flex items-center gap-2 flex-wrap mb-4">
+      <div className="flex flex-wrap items-center gap-2 mb-4 w-full">
         <button
           onClick={() => setGroup('all')}
           className={`px-3 py-1 rounded-full border ${group==='all'?'bg-slate-900 text-white':'border-slate-300'}`}
@@ -181,9 +184,9 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
           </button>
         ))}
 
-        {/* Paging (eingeklappt) */}
+        {/* Paging (eingeklappt) – Mobile eigene Zeile, Desktop rechts */}
         {!grpExpanded && groups.length > VISIBLE_CHIPS && (
-          <div className="ml-auto flex items-center gap-2">
+          <div className="basis-full flex items-center gap-2 justify-end sm:basis-auto sm:ml-auto">
             <button
               className="px-2 py-1 rounded border text-xs"
               onClick={() => setGrpPage(p => Math.max(0, p - 1))}
@@ -202,9 +205,12 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
           </div>
         )}
 
-        {/* Toggle */}
+        {/* Toggle – Mobile eigene Zeile */}
         {groups.length > VISIBLE_CHIPS && (
-          <button className="underline text-xs ml-2" onClick={() => setGrpExpanded(v => !v)}>
+          <button
+            className="underline text-xs basis-full text-right sm:basis-auto sm:text-left sm:ml-2"
+            onClick={() => setGrpExpanded(v => !v)}
+          >
             {grpExpanded ? t('show_less') : t('show_more')}
           </button>
         )}
