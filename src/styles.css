@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Screen-only & Print-only Helfer */
+.no-print { }
+.print-only { display: none !important; }
+
+@media print {
+  body { background: white !important; }
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+
+  /* Beim Drucken nur die Zusammenfassung ausgeben */
+  header, .search-sort, .filters, section.no-print { display: none !important; }
+  #print-area {
+    display: block !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  main { display: block !important; }
+}

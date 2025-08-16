@@ -1,0 +1,105 @@
+{
+  "currency": "EUR",
+  "updated": "2025-08-15",
+  "items": [
+    {
+      "id": "1",
+      "title": "Inbetriebnahme & Vorführung (national)",
+      "category": "Handwerk Injektoren",
+      "group": "PI",
+      "machine": "PI 280-21, PI 280-57, PI 345-26, PI 345-52",
+      "avgDays": 1,
+      "dayRateEur": 600
+    },
+    {
+      "id": "2",
+      "title": "Inbetriebnahme & Vorführung (national)",
+      "category": "Handwerk Tumbler",
+      "group": "GPA, GPM",
+      "machine": "GPA 100 – 600, GPM 200 – 600",
+      "avgDays": 1,
+      "dayRateEur": 600
+    },
+    {
+      "id": "3",
+      "title": "Montage",
+      "category": "Injektoren Industrie",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 1,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "4",
+      "title": "Inbetriebnahme & Vorführung",
+      "category": "Injektoren Industrie",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 3,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "5",
+      "title": "Montage",
+      "category": "Tumbler Industrie",
+      "group": "Alle Industrie Typen",
+      "machine": "Alle Industrie Typen",
+      "avgDays": 2,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "6",
+      "title": "Inbetriebnahme & Vorführung",
+      "category": "Tumbler Industrie",
+      "group": "Alle Industrie Typen",
+      "machine": "Alle Industrie Typen",
+      "avgDays": 2,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "7",
+      "title": "Inbetriebnahme & Vorführung",
+      "category": "Steaker",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 1,
+      "dayRateEur": 800
+    },
+    {
+      "id": "8",
+      "title": "Montage",
+      "category": "Linien Industrie",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "9",
+      "title": "Inbetriebnahme & Vorführung",
+      "category": "Linien Industrie",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "10",
+      "title": "Montage",
+      "category": "Coating Linie",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    },
+    {
+      "id": "11",
+      "title": "Inbetriebnahme & Vorführung",
+      "category": "Coating Linie Montage",
+      "group": "Alle Typen",
+      "machine": "Alle Typen",
+      "avgDays": 5,
+      "dayRateEur": 1500
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "currency": "EUR",
+  "updated": "2025-08-15",
+  "products": [
+    {
+      "id": "gpc-600",
+      "typ": "hallo welt",
+      "name": "GPC 600",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": { "type": "value", "eur": 124873 },
+      "options": [
+        { "id": "drum-insulation", "name": "Drum insulation", "price": { "type": "value", "eur": 3351 } },
+        { "id": "lid-mounting-aid", "name": "Lid mounting aid", "price": { "type": "value", "eur": 3704 } },
+        { "id": "automatic-loading", "name": "Automatic loading unit", "price": { "type": "value", "eur": 28394 } }
+      ],
+      "images": ["/images/gpc-600.jpg"]
+    },
+    {
+      "id": "gpc-2200",
+      "typ": "",
+      "name": "GPC 2200",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": { "type": "value", "eur": 156092 },
+      "options": [
+        { "id": "drum-insulation", "name": "Drum insulation", "price": { "type": "value", "eur": 4938 } },
+        { "id": "lid-mounting-aid", "name": "Lid mounting aid", "price": { "type": "value", "eur": 5114 } }
+      ],
+      "images": ["/images/gpc-2200.jpg"]
+    },
+    {
+      "id": "gpc-4000",
+      "typ": "",
+      "name": "GPC 4000",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": { "type": "value", "eur": 195115 },
+      "options": [
+        { "id": "drum-insulation", "name": "Drum insulation", "price": { "type": "value", "eur": 6525 } },
+        { "id": "lid-mounting-aid", "name": "Lid mounting aid", "price": { "type": "value", "eur": 5114 } }
+      ],
+      "images": ["/images/gpc-4000.jpg"]
+    },
+    {
+      "id": "gpc-7000",
+      "typ": "",
+      "name": "GPC 7000",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": { "type": "value", "eur": 234138 },
+      "options": [
+        { "id": "drum-insulation", "name": "Drum insulation", "price": { "type": "value", "eur": 11111 } }
+      ],
+      "images": ["/images/gpc-7000.jpg"]
+    },
+    {
+      "id": "gpc-12000",
+      "typ": "",
+      "name": "GPC 12000",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": { "type": "value", "eur": 280965 },
+      "options": [
+        { "id": "drum-insulation", "name": "Drum insulation", "price": { "type": "value", "eur": 18518 } }
+      ],
+      "images": ["/images/gpc-12000.jpg"]
+    },
+    {
+      "id": "gla-150",
+      "typ": "",
+      "name": "GLA 150",
+      "group": "GLA",
+      "category": "Brine Preparation VK",
+      "basePrice": { "type": "value", "eur": 4867 },
+      "options": [
+        { "id": "special-voltage", "name": "Special Voltage", "price": { "type": "on_request" } },
+        { "id": "agiator", "name": "Agiator", "price": { "type": "value", "eur": 1411 } }
+      ],
+      "images": ["/images/gla-150.jpg"]
+    },
+    {
+      "id": "glr-300",
+      "typ": "",
+      "name": "GRK 300",
+      "group": "GRK",
+      "category": "Brine Preparation VK",
+      "basePrice": { "type": "value", "eur": 6190 },
+      "options": [
+        { "id": "special-voltage", "name": "Special Voltage", "price": { "type": "on_request" } },
+        { "id": "agiator", "name": "Agiator", "price": { "type": "value", "eur": 1411 } }
+      ],
+      "images": ["/images/grk-300.jpg"]
+    },
+    {
+      "id": "gtr-365-64",
+      "typ": "",
+      "name": "GTR 365 -64",
+      "group": "GTR",
+      "category": "Tenderizer VK",
+      "basePrice": { "type": "value", "eur": 87535 },
+      "options": [
+        { "id": "special-voltage", "name": "Special voltage", "price": { "type": "value", "eur": 13772 } },
+        { "id": "press-version", "name": "Surcharge for Press Version", "price": { "type": "value", "eur": 13719 } },
+        { "id": "gsb", "name": "GSB for GTR", "price": { "type": "on_request" } }
+      ],
+      "images": ["/images/gtr-365-64.jpg"]
+    },
+    {
+      "id": "pi-365-105",
+      "typ": "",
+      "name": "PI 365 -105",
+      "group": "PI 365",
+      "category": "Injectors Industry VK",
+      "basePrice": { "type": "value", "eur": 107605 },
+      "options": [
+        { "id": "rotary-piston-pump", "name": "Rotary piston pump", "price": { "type": "value", "eur": 4056 } },
+        { "id": "see-steaker", "name": "see Steaker price list", "price": { "type": "on_request" } }
+      ],
+      "images": ["/images/pi-365-105.jpg"]
+    }
+  ]
+}

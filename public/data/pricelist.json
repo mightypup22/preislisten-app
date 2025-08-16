@@ -1,0 +1,7792 @@
+{
+  "currency": "EUR",
+  "updated": "2025-08-15",
+  "products": [
+    {
+      "id": "1",
+      "typ": "GLA 300",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GLA",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 7455.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Turbomischer mit Frequenzumrichter",
+          "price": {
+            "type": "value",
+            "eur": 2205.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GLA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 1577.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "typ": "GLA 600",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GLA",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 13679.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Turbomischer mit Frequenzumrichter",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GLA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 1577.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "typ": "GRK 1",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GRK",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 12668.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Steuerungspaket für Stand- Alone-Betrieb",
+          "price": {
+            "type": "value",
+            "eur": 7486.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Steuerungspaket für Linienbetrieb",
+          "price": {
+            "type": "value",
+            "eur": 5470.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: Steuerpaket für GRK",
+          "price": {
+            "type": "value",
+            "eur": 1502.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "typ": "GRK 2",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GRK",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 15934.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Steuerungspaket für Stand- Alone-Betrieb",
+          "price": {
+            "type": "value",
+            "eur": 7486.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Steuerungspaket für Linienbetrieb",
+          "price": {
+            "type": "value",
+            "eur": 5470.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: Steuerpaket für GRK",
+          "price": {
+            "type": "value",
+            "eur": 1577.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "typ": "GRK 3",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GRK",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 23047.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Steuerungspaket für Stand- Alone-Betrieb",
+          "price": {
+            "type": "value",
+            "eur": 7486.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Steuerungspaket für Linienbetrieb",
+          "price": {
+            "type": "value",
+            "eur": 5470.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: Steuerpaket für GRK",
+          "price": {
+            "type": "value",
+            "eur": 1577.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "typ": "GMA 400",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GMA",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 21903.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 2225.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis für Wiegezellen incl. MC2R",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Sonderspannung: GMA",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "typ": "GMA 750",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GMA",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 26630.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 2669.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis für Wiegezellen incl. MC2R",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Sonderspannung: GMA",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Kühlmaschine GSK 2",
+          "price": {
+            "type": "value",
+            "eur": 13976.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "typ": "GMA 1500",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GMA",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 31124.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 3249.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis für Wiegezellen incl. MC2R",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Sonderspannung: GMA",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Externe Kühlmaschine GSK 3",
+          "price": {
+            "type": "value",
+            "eur": 19365.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "typ": "GMA 2000",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GMA",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 32139.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 3655.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis für Wiegezellen incl. MC2R",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Sonderspannung: GMA",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Externe Kühlmaschine GSK 3",
+          "price": {
+            "type": "value",
+            "eur": 19365.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "typ": "GLT 1000",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GLT",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 28482.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlgerät",
+          "price": {
+            "type": "value",
+            "eur": 2834.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolben-pumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Becherrührwerk",
+          "price": {
+            "type": "value",
+            "eur": 7353.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Wiegezellen mit MC2R GLT 1000– 2000",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Sonderspannung: GMA / GLT",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Externe Kühlmaschine GSK 2",
+          "price": {
+            "type": "value",
+            "eur": 13976.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "typ": "GLT 1500",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GLT",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 30514.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlgerät",
+          "price": {
+            "type": "value",
+            "eur": 3249.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolben-pumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Becherrührwerk",
+          "price": {
+            "type": "value",
+            "eur": 7535.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Wiegezellen mit MC2R GLT 1000 – 2000",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Sonderspannung: GMA / GLT",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Externe Kühlmaschine GSK 3",
+          "price": {
+            "type": "value",
+            "eur": 19365.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "typ": "GLT 2000",
+      "name": "Lake-und Aufbereitungsanlagen",
+      "group": "GLT",
+      "category": "Solevorbereitung VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 30954.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Kühlmantel ohne Kühlgerät",
+          "price": {
+            "type": "value",
+            "eur": 3655.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Pneumatische Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Edelstahl-Drehkolben-pumpe",
+          "price": {
+            "type": "value",
+            "eur": 12269.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Becherrührwerk",
+          "price": {
+            "type": "value",
+            "eur": 7535.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Wiegezellen mit MC2R GLT 1000 – 2000",
+          "price": {
+            "type": "value",
+            "eur": 6280.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis zusätzliches Ventil per Ausgang bei mehreren Abnehmern (nur mit pneumatischer Ventilsteuerung)",
+          "price": {
+            "type": "value",
+            "eur": 1500.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Sonderspannung: GMA / GLT > 750 L",
+          "price": {
+            "type": "value",
+            "eur": 1769.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Externe Kühlmaschine GSK 3",
+          "price": {
+            "type": "value",
+            "eur": 19365.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "typ": "PP 3",
+      "name": "Filteranlagen für Pökelinjektoren",
+      "group": "PP",
+      "category": "Injektoren Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 2450.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Dreierrechen mit 3 Stück 3 oder 4 mm Nadeln",
+          "price": {
+            "type": "value",
+            "eur": 495.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "typ": "PI 280-21M",
+      "name": "Pökelinjektoren 280 [mm]",
+      "group": "PI 280",
+      "category": "Injektoren Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 20108.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "H-Ausführung",
+          "price": {
+            "type": "value",
+            "eur": 1900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 6100.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis für auswechselbare Nadelbrücke 21",
+          "price": {
+            "type": "value",
+            "eur": 3820.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Filteranlage GHF 200 mittig (PI 26 – PI 52 )",
+          "price": {
+            "type": "value",
+            "eur": 6800.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Erhöhung zum Ansaugen aus 200 L Normwagen (PI 21 M)",
+          "price": {
+            "type": "value",
+            "eur": 562.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Komplett fahrbar",
+          "price": {
+            "type": "value",
+            "eur": 472.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Handspritzanschluss komplett 21-26-52",
+          "price": {
+            "type": "value",
+            "eur": 1200.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Steakermesservorsatz für knochenlose Produkte",
+          "price": {
+            "type": "value",
+            "eur": 3139.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 1479.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "typ": "PI 345-26M",
+      "name": "Pökelinjektoren 345 [mm]",
+      "group": "PI 345",
+      "category": "Injektoren Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 33870.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "H-Ausführung",
+          "price": {
+            "type": "value",
+            "eur": 1957.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 8733.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis für auswechselbare Nadelbrücke 26",
+          "price": {
+            "type": "value",
+            "eur": 4260.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Filteranlage GHF 200 mittig (PI 26 – PI 52 )",
+          "price": {
+            "type": "value",
+            "eur": 6800.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Komplett fahrbar",
+          "price": {
+            "type": "value",
+            "eur": 450.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Handspritzanschluss komplett 21-26-52",
+          "price": {
+            "type": "value",
+            "eur": 1200.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Steakermesservorsatz für knochenlose Produkte",
+          "price": {
+            "type": "value",
+            "eur": 4007.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 1479.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "typ": "PI 345-52M",
+      "name": "Pökelinjektoren 345 [mm]",
+      "group": "PI 345",
+      "category": "Injektoren Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 38153.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Edelstahl-Drehkolbenpumpe",
+          "price": {
+            "type": "value",
+            "eur": 8797.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Aufpreis für auswechselbare Nadelbrücke 52",
+          "price": {
+            "type": "value",
+            "eur": 5240.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GHF 200 mittig ( PI 21 – PI 26 – PI 52 )",
+          "price": {
+            "type": "value",
+            "eur": 6800.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Erhöhung zum Ansaugen aus 200 L Normwagen (PI 21 M – PI 26 M)",
+          "price": {
+            "type": "value",
+            "eur": 489.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Komplett fahrbar",
+          "price": {
+            "type": "value",
+            "eur": 450.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Handspritzanschluss komplett 21-26-52",
+          "price": {
+            "type": "value",
+            "eur": 1200.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Steakermesservorsatz für knochenlose Produkte",
+          "price": {
+            "type": "value",
+            "eur": 4007.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 1479.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "typ": "PI 365-54 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 365",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 68842.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 4177.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 6144.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 200 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 8108.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 300 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 15280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 11908.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 1800.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 1996.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Ansaugfilter ohne GRF",
+          "price": {
+            "type": "value",
+            "eur": 3795.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Filteranlage GRF 200 rechts",
+          "price": {
+            "type": "value",
+            "eur": 9608.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Reinigungswagen",
+          "price": {
+            "type": "value",
+            "eur": 3606.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 1800.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilter GBF 300 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 16780.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 1908.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "typ": "PI 365-75 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 365",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 73354.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 4952.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 7165.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 200 links",
+          "price": {
+            "type": "value",
+            "eur": 8108.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 300 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 15280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 11908.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 1800.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 1996.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Ansaugfilter ohne GRF",
+          "price": {
+            "type": "value",
+            "eur": 3795.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Filteranlage GRF 200 rechts",
+          "price": {
+            "type": "value",
+            "eur": 9608.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Reinigungswagen",
+          "price": {
+            "type": "value",
+            "eur": 3606.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 1800.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 300 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 16780.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 1908.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "typ": "PI 365-105 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 365",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 75308.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 6014.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 8688.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 200 links",
+          "price": {
+            "type": "value",
+            "eur": 8108.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 300 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 15280.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 11908.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 1800.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 1996.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Ansaugfilter ohne GRF",
+          "price": {
+            "type": "value",
+            "eur": 3795.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Filteranlage GRF 200 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 9608.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Reinigungswagen",
+          "price": {
+            "type": "value",
+            "eur": 3606.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 1800.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Linienkontrolle für nachgeschlatete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 300 rechteSeite",
+          "price": {
+            "type": "value",
+            "eur": 16780.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 1908.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "typ": "PI 480-81 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 480",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 96023.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 6093.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 9251.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 350 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12033.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 14413.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 2400.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 2627.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Filteranlage GRF 350 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 13533.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen",
+          "price": {
+            "type": "value",
+            "eur": 3843.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2050.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Linnienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Bandfilteranlage GBF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 23065.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 3870.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "typ": "PI 480-124 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 480",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 98108.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 7862.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 11576.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 350 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12033.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 14413.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 2400.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 2627.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Filteranlage GRF 350 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 13533.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Bandfilteranlage GBF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Reinigungswagen",
+          "price": {
+            "type": "value",
+            "eur": 3843.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2050.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 3870.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "typ": "PI 480-184 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 480",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 100190.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 8794.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 13547.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 350 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12033.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilter GBF Filter 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 14413.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 2400.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 2627.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Filteranlage GRF 350 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 13533.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Bandfilteranlage GBF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Reinigungswagen",
+          "price": {
+            "type": "value",
+            "eur": 3843.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2050.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 3870.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "typ": "PI 605-156 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 120929.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 11265.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 15049.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilter GBF 600 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 23063.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe  PI 236 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 14413.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Seire 900",
+          "price": {
+            "type": "value",
+            "eur": 2850.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4249.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Filteranlage GRF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 12880.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Bandfilteranlage GBF 600 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 24563.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2350.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "typ": "PI 605-236 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 126662.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 11434.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 17613.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 600 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 23063.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 2850.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4249.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Filteranlage GRF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Bandfilteranlage GBF 600 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 24563.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2350.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Liniekontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "typ": "PI 605-258 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 138163.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 14703.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 19253.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 600",
+          "price": {
+            "type": "value",
+            "eur": 23063.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 258 MC2R  - PI 354 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 17411.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 2850.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3161.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4249.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Filteranlage GRF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Bandfilteranlage GBF 600 right side",
+          "price": {
+            "type": "value",
+            "eur": 24563.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2350.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Linienkontrolle für nachgeschlatete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "typ": "PI 605-354 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 147591.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 15200.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 26419.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 600 linke Seite",
+          "price": {
+            "type": "value",
+            "eur": 23063.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 258 MC2R  - PI 354 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 17411.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Aufpreis blaues Band Seire 900",
+          "price": {
+            "type": "value",
+            "eur": 2850.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4150.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3161.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4249.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4810.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Filteranlage GRF 400 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 12880.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Bandfilteranlage GBF 600 rechte Seite",
+          "price": {
+            "type": "value",
+            "eur": 24563.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2350.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Linienkontrolle für nachgeschlatete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "typ": "PI 365-54 DUO MC2R",
+      "name": "Günther Servo Injektoren 365 [mm] mit MC2R Touch-Screen-Steuerung",
+      "group": "PI 365 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 131465.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "1 Satz = 2 Stück zusätzliche Nadelbrücken mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 8355.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "1 Satz = 2 Stück zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 12902.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 365 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 22682.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Steakermesserkopf mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 6300.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 3200.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 1996.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4704.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Sonderspannung: PI 365 Duo",
+          "price": {
+            "type": "value",
+            "eur": 3686.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Filteranlage GRF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2350.0
+          }
+        },
+        {
+          "id": "19",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "typ": "PI 365-105 DUO MC2R",
+      "name": "Günther Servo Injektoren 365 [mm] mit MC2R Touch-Screen-Steuerung",
+      "group": "PI 365 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 139411.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "1 Satz = 2 Stück zusätzliche Nadelbrücken mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 12028.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 18244.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 365 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 22682.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Minderpreis bei Ausführung mit Steakermesserkopf mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": -11391.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 3200.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 1996.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4704.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4590.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Sonderspannung: PI 365-54-105 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 1818.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Filteranlage GRF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2350.0
+          }
+        },
+        {
+          "id": "19",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "20",
+          "name": "Steakermesserkopf 75 Messer mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 6300.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "typ": "PI 480-124 DUO MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 480 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 182109.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 16510.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 24309.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 480 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 28826.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Steakermesserkopf 124 Messer mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 9418.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 3600.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 2627.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4919.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Linenkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Sonderspannung: PI 480 Duo",
+          "price": {
+            "type": "value",
+            "eur": 3870.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Filteranlage GRF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2550.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "typ": "PI 480-184 DUO MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 480 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 194185.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 18469.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 28448.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 480 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 28826.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Steakermesserkopf 124 Messer mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 9418.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Serie 900",
+          "price": {
+            "type": "value",
+            "eur": 3600.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 2627.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4919.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Sonderspannung: PI 480 Duo",
+          "price": {
+            "type": "value",
+            "eur": 3870.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Filteranlage GRF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2550.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "typ": "PI 605-156 DUO MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 209824.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 23656.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 31602.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 25523.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Filteranlage GBF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 36281.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 605 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 34882.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Steakermesserkopf 156 Messer mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 19469.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Seire 900",
+          "price": {
+            "type": "value",
+            "eur": 3990.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 5621.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2800.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Sonderspannung: PI 605 Duo",
+          "price": {
+            "type": "value",
+            "eur": 6093.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Filteranlage GRF 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 27023.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GBF 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 37781.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "typ": "PI 605-236 DUO MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 237261.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 26300.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "2 zusätzliche Nadelbrücke mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 36987.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 25523.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 36281.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 605 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 34882.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Steakermesserkopf 156 Messer  mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 19469.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Seire 900",
+          "price": {
+            "type": "value",
+            "eur": 3990.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 5621.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2800.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Sonderspannung: PI 605 Duo",
+          "price": {
+            "type": "value",
+            "eur": 6093.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Filteranlage GRF 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 27023.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Bandfilteranlage GFB 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 37781.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "typ": "PI 605-258 DUO MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI 605 DUO",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 243424.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "1 Satz = 2 zusatzliche Nadelbrücken mit Nadeln (ungefedert)",
+          "price": {
+            "type": "value",
+            "eur": 35210.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken mit Nadeln (gefedert)",
+          "price": {
+            "type": "value",
+            "eur": 40431.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Filteranlage GRF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 25523.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Bandfilteranlage GBF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 36281.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI 605 Servo DUO  MC2R",
+          "price": {
+            "type": "value",
+            "eur": 34882.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Steakermesserkopf 156 Messer mit nur einer Lakepumpe",
+          "price": {
+            "type": "value",
+            "eur": 19469.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Aufpreis blaues Band Seire 900",
+          "price": {
+            "type": "value",
+            "eur": 3990.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 5621.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2800.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-STop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Sonderspannung: PI 605 Duo",
+          "price": {
+            "type": "value",
+            "eur": 6093.0
+          }
+        },
+        {
+          "id": "17",
+          "name": "Filteranlage GRF 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 27023.0
+          }
+        },
+        {
+          "id": "18",
+          "name": "Bandfilteranlage GBF 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 37781.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "typ": "PIH 900-630-2 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI-H 900",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 203895.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Antisedimentationseinheit",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "1 Satz = 2 zusätzliche Nadelbrücken  2 x 315 Nadeln",
+          "price": {
+            "type": "value",
+            "eur": 50904.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Auslaufrollentisch",
+          "price": {
+            "type": "value",
+            "eur": 5171.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe",
+          "price": {
+            "type": "value",
+            "eur": 17411.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Beladetisch für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4910.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Bandfilteranlage GBF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 21965.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Filteranlage GRF 400 links",
+          "price": {
+            "type": "value",
+            "eur": 12267.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 5621.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Sonderspannung: PI-H 900-630-2",
+          "price": {
+            "type": "value",
+            "eur": 6093.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Vorfilter-Parallelsystem incl. Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 11726.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Filteranlage GRF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 13767.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Bandfilteranlage GBF 400 rechts",
+          "price": {
+            "type": "value",
+            "eur": 23465.0
+          }
+        },
+        {
+          "id": "14",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 4199.0
+          }
+        },
+        {
+          "id": "15",
+          "name": "Linienkontrolle für nachgeschaltete Anlage Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "16",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 4148.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "typ": "PI-H-F 605 MC2R",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "PI-H-F",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 208914.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Antisedimentationseinheit PI-H-F 605 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 5300.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Zusätzliche Nadelbrücke 650 Nadeln",
+          "price": {
+            "type": "value",
+            "eur": 28900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Auslaufrutsche",
+          "price": {
+            "type": "value",
+            "eur": 2800.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Auslaufrollentisch PI-H-F 605 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 3309.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Austauschpreis Drehkolben- gegen Kreiselpumpe PI-H-F 605 MC2R",
+          "price": {
+            "type": "value",
+            "eur": 17411.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Bandfilteranlage GBF 600 links",
+          "price": {
+            "type": "value",
+            "eur": 23063.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Nadelreinigungsadapter",
+          "price": {
+            "type": "value",
+            "eur": 318.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Reinigungswagen für Pökelinjektoren",
+          "price": {
+            "type": "value",
+            "eur": 4249.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Sonderspannung: PI-H-F 605-650",
+          "price": {
+            "type": "value",
+            "eur": 6093.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Vorfilter-Parallelsystem inklusive Ventilsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 8300.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Bandfilteranlage GBF 600 rechts",
+          "price": {
+            "type": "value",
+            "eur": 24965.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Nadelbrückenausbauhilfe",
+          "price": {
+            "type": "value",
+            "eur": 3319.0
+          }
+        },
+        {
+          "id": "13",
+          "name": "Linienkontrolle für nachgeschaltete Anlagen Start-Stop",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "typ": "GNR 365",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "GNR",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 18687.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Rückwärtsreinigung der Injektionsnadeln",
+          "price": {
+            "type": "value",
+            "eur": 5775.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: Nadelreinigungstation GNR",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Ultrasonic GNR 365",
+          "price": {
+            "type": "value",
+            "eur": 7352.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "typ": "GNR 480",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "GNR",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 24514.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Rückwärtsreinigung der Injektionsnadeln",
+          "price": {
+            "type": "value",
+            "eur": 6050.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: Nadelreinigungstation GNR",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Ultrasonic GNR 480 & 600",
+          "price": {
+            "type": "value",
+            "eur": 10480.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "typ": "GNR 605",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "GNR",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 30896.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Rückwärtsreinigung der Injektionsnadeln",
+          "price": {
+            "type": "value",
+            "eur": 6875.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: Nadelreinigungstation GNR",
+          "price": {
+            "type": "value",
+            "eur": 4837.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Ultrasonic GNR 480 & 600",
+          "price": {
+            "type": "value",
+            "eur": 11004.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "typ": "GZB 365",
+      "name": "Förderbänder [Zuführband]",
+      "group": "GZB",
+      "category": "Förderbänder",
+      "basePrice": {
+        "type": "value",
+        "eur": 16968.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis:_x000D_\nje lfm Bandlänge GZB 365",
+          "price": {
+            "type": "value",
+            "eur": 2520.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Doppelmembranpumpe für GZB",
+          "price": {
+            "type": "value",
+            "eur": 5800.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Pumpstation für GZB",
+          "price": {
+            "type": "value",
+            "eur": 4671.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung GZB",
+          "price": {
+            "type": "value",
+            "eur": 1318.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Verknüpfung (Takten mit Injektor)",
+          "price": {
+            "type": "value",
+            "eur": 3546.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "typ": "GZB 480",
+      "name": "Förderbänder [Zuführband]",
+      "group": "GZB",
+      "category": "Förderbänder",
+      "basePrice": {
+        "type": "value",
+        "eur": 19719.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis:_x000D_\nje lfm Bandlänge GZB 480",
+          "price": {
+            "type": "value",
+            "eur": 2761.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Doppelmembranpumpe für GZB",
+          "price": {
+            "type": "value",
+            "eur": 5800.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Pumpstation für GZB",
+          "price": {
+            "type": "value",
+            "eur": 4671.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GZB",
+          "price": {
+            "type": "value",
+            "eur": 1318.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Verknüpfung (Takten mit Injektor)",
+          "price": {
+            "type": "value",
+            "eur": 3546.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "typ": "GZB 605",
+      "name": "Förderbänder [Zuführband]",
+      "group": "GZB",
+      "category": "Förderbänder",
+      "basePrice": {
+        "type": "value",
+        "eur": 24990.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis:_x000D_\nje lfm Bandlänge GZB 605",
+          "price": {
+            "type": "value",
+            "eur": 3269.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Doppelmembranpumpe für GZB",
+          "price": {
+            "type": "value",
+            "eur": 5800.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Pumpstation für GZB",
+          "price": {
+            "type": "value",
+            "eur": 4671.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GZB",
+          "price": {
+            "type": "value",
+            "eur": 1318.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Verknüpfung (Takten mit Injektor)",
+          "price": {
+            "type": "value",
+            "eur": 3546.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "typ": "GZB 900",
+      "name": "Förderbänder [Zuführband]",
+      "group": "GZB",
+      "category": "Förderbänder",
+      "basePrice": {
+        "type": "value",
+        "eur": 32043.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis:_x000D_\nje lfm Bandlänge GZB 900",
+          "price": {
+            "type": "value",
+            "eur": 4875.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Doppelmembranpumpe für GZB",
+          "price": {
+            "type": "value",
+            "eur": 5800.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Pumpstation für GZB",
+          "price": {
+            "type": "value",
+            "eur": 4671.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GZB",
+          "price": {
+            "type": "value",
+            "eur": 1318.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Verknüpfung (Takten mit Injektor)",
+          "price": {
+            "type": "value",
+            "eur": 3546.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "typ": "GTK 365-75",
+      "name": "Messersteaker",
+      "group": "GTK",
+      "category": "Messersteaker",
+      "basePrice": {
+        "type": "value",
+        "eur": 60251.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für zweite Messerbrücke GTK 365",
+          "price": {
+            "type": "value",
+            "eur": 5728.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GTK 365/480/605",
+          "price": {
+            "type": "value",
+            "eur": 2693.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "typ": "GTK 480-124",
+      "name": "Messersteaker",
+      "group": "GTK",
+      "category": "Messersteaker",
+      "basePrice": {
+        "type": "value",
+        "eur": 85349.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für zweite Messerbrücke GTK 480",
+          "price": {
+            "type": "value",
+            "eur": 8190.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GTK 365/480/605",
+          "price": {
+            "type": "value",
+            "eur": 2693.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "typ": "GTK 605-156",
+      "name": "Messersteaker",
+      "group": "GTK",
+      "category": "Messersteaker",
+      "basePrice": {
+        "type": "value",
+        "eur": 98790.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für zweite Messerbrücke GTK 605-156",
+          "price": {
+            "type": "value",
+            "eur": 16930.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GTK 365/480/605",
+          "price": {
+            "type": "value",
+            "eur": 2693.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "typ": "GTK 605-258",
+      "name": "Messersteaker",
+      "group": "GTK",
+      "category": "Messersteaker",
+      "basePrice": {
+        "type": "value",
+        "eur": 109790.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für zweite Messerbrücke GTK 605-258",
+          "price": {
+            "type": "value",
+            "eur": 19975.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GTK 365/480/605",
+          "price": {
+            "type": "value",
+            "eur": 2693.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "typ": "GT 400S",
+      "name": "Walzensteaker & Fleischpresse",
+      "group": "GT",
+      "category": "Walzensteaker & Fleischpresse",
+      "basePrice": {
+        "type": "value",
+        "eur": 48468.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis Mitnehmerrolle GT 400S",
+          "price": {
+            "type": "value",
+            "eur": 3008.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Aufpreis zusätzliche Messerwelle GT 400S",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "GSB für GT 400S",
+          "price": {
+            "type": "value",
+            "eur": 23375.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GT 400S / 600S / Presse",
+          "price": {
+            "type": "value",
+            "eur": 1908.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "typ": "GT 600S",
+      "name": "Walzensteaker & Fleischpresse",
+      "group": "GT",
+      "category": "Walzensteaker & Fleischpresse",
+      "basePrice": {
+        "type": "value",
+        "eur": 74224.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis Mitnehmerrolle GT 600S",
+          "price": {
+            "type": "value",
+            "eur": 6736.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Aufpreis zusätzliche Messerwelle GT 600 S",
+          "price": {
+            "type": "value",
+            "eur": 8500.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "GSB für GT 600S",
+          "price": {
+            "type": "value",
+            "eur": 26061.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sondergestell GT 400S für 600 – 1000 l Behälter",
+          "price": {
+            "type": "value",
+            "eur": 6210.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Sonderspannung: GT 400S / 600S / Presse",
+          "price": {
+            "type": "value",
+            "eur": 1908.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "typ": "GP 600S",
+      "name": "Walzensteaker & Fleischpresse",
+      "group": "GP",
+      "category": "Walzensteaker & Fleischpresse",
+      "basePrice": {
+        "type": "value",
+        "eur": 69160.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "GSB für GP 600S",
+          "price": {
+            "type": "value",
+            "eur": 26061.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GT 400S / 600S / Presse",
+          "price": {
+            "type": "value",
+            "eur": 1908.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "typ": "GPA 100",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 20267.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GPA 100 / 200",
+          "price": {
+            "type": "value",
+            "eur": 1159.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "typ": "GPA 200",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 36880.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GPA 100 / 200",
+          "price": {
+            "type": "value",
+            "eur": 1159.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Wiegezellen  für GPA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 5400.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "typ": "GPA 300",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 43552.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Externe Säulenbeschickung fahrbar GPA 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GPA 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Wiegezellen  für GPA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 5400.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "typ": "GPA 600",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 53241.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GPA 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Externe Säulenbeschickung fahrbar GPA 300-600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Wiegezellen  für GPA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 5400.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "typ": "GPA 200 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 41209.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung GPA 200 K",
+          "price": {
+            "type": "value",
+            "eur": 1159.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "typ": "GPA 300 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 54545.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Externe Säulenbeschickung fahrbar GPA 300-600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Wiegezellen  für GPA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 5400.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "K-H-Version mit Kühlmantel und Mantelheizung",
+          "price": {
+            "type": "value",
+            "eur": 20609.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "typ": "GPA 600 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPA",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 67509.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Externe Säulenbeschickung fahrbar GPA 300-600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Aufpreis für Wiegezellen  für GPA 300 - 600",
+          "price": {
+            "type": "value",
+            "eur": 8980.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis K-H-Version mit Kühlmantel und Mantelheizung",
+          "price": {
+            "type": "value",
+            "eur": 0.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Vakuumanschluss mit Soßenrohr mit Ansaugschlauch und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "GHK 200 S GPA 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 20530.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Sonderspannung",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "typ": "GPM 100",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 16495.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 100",
+          "price": {
+            "type": "value",
+            "eur": 1590.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GPM 100 / 200",
+          "price": {
+            "type": "value",
+            "eur": 1586.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "typ": "GPM 200",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 27950.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 200",
+          "price": {
+            "type": "value",
+            "eur": 1910.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GPM 100 / 200",
+          "price": {
+            "type": "value",
+            "eur": 1586.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "typ": "GPM 300",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 35376.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 300",
+          "price": {
+            "type": "value",
+            "eur": 2290.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Säulenbeschickung fahrbar GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "typ": "GPM 600",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 46126.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 600",
+          "price": {
+            "type": "value",
+            "eur": 2780.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Säulenbeschickung  für GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "typ": "GPM 600 G",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 123472.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Externe Säulenbeschickung für GPM 300 / 600 / 900 Guacamole",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 3200.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "typ": "GPM 100 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 29263.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 100",
+          "price": {
+            "type": "value",
+            "eur": 1590.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GPM 100 / 200",
+          "price": {
+            "type": "value",
+            "eur": 1586.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "typ": "GPM 200 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 36245.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 200",
+          "price": {
+            "type": "value",
+            "eur": 1910.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GPM 100 / 200",
+          "price": {
+            "type": "value",
+            "eur": 1586.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "typ": "GPM 300 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 43376.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 300",
+          "price": {
+            "type": "value",
+            "eur": 2290.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Säulenbeschickung fahrbar für GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "typ": "GPM 600 K",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 60485.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Zusätzlicher Mengarm GPM 600",
+          "price": {
+            "type": "value",
+            "eur": 2780.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Säulenbeschickung fahrbar für GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPM 300 / 600",
+          "price": {
+            "type": "value",
+            "eur": 2940.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "typ": "GPB 1500",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 53528.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4449.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 1500 / 2200 / 4000",
+          "price": {
+            "type": "value",
+            "eur": 1827.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Load Master NT/NTLT",
+          "price": {
+            "type": "value",
+            "eur": 19924.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Sonderspannung Load Master NT/NTLT",
+          "price": {
+            "type": "value",
+            "eur": 2063.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "typ": "GPB 2200",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 60738.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4449.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 1500 / 2200 / 4000",
+          "price": {
+            "type": "value",
+            "eur": 1827.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "typ": "GPB 4000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 81005.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder 200",
+          "price": {
+            "type": "value",
+            "eur": 4449.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 1500 / 2200 / 4000",
+          "price": {
+            "type": "value",
+            "eur": 1827.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "typ": "GPB 5500",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 88134.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4449.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 5500 / 7000 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "typ": "GPB 7000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 112170.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 7000 bis GPB 10000",
+          "price": {
+            "type": "value",
+            "eur": 11500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 3869.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 5500 / 7000 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "typ": "GPB 10000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 160243.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 7000 bis GPB 10000",
+          "price": {
+            "type": "value",
+            "eur": 11500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 3869.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 5500 / 7000 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "typ": "GPB 1500 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 67099.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4449.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 1500 / 2200 / 4000",
+          "price": {
+            "type": "value",
+            "eur": 1827.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 13976.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitige Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Load Master NT/NTLT",
+          "price": {
+            "type": "value",
+            "eur": 19924.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Sonderspannung Load Master NT/NTLT",
+          "price": {
+            "type": "value",
+            "eur": 2063.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "typ": "GPB 2200 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 78760.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4449.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 1500 / 2200 / 4000",
+          "price": {
+            "type": "value",
+            "eur": 1827.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühlmaschine GSK 3",
+          "price": {
+            "type": "value",
+            "eur": 19365.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "typ": "GPB 4000 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 95543.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4440.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 1500 / 2200 / 4000",
+          "price": {
+            "type": "value",
+            "eur": 1827.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühlmaschine GSK 5",
+          "price": {
+            "type": "value",
+            "eur": 23434.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitinges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3707.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "typ": "GPB 5500 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 103635.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 1500 bis GPB 5500",
+          "price": {
+            "type": "value",
+            "eur": 6500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 3869.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 5500 / 7000 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühlmaschine GSK 5",
+          "price": {
+            "type": "value",
+            "eur": 23434.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "typ": "GPB 7000 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 131899.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 7000 bis GPB 10000",
+          "price": {
+            "type": "value",
+            "eur": 11500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 DN 200",
+          "price": {
+            "type": "value",
+            "eur": 3869.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 5500 / 7000 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühlmaschine GSK 8",
+          "price": {
+            "type": "value",
+            "eur": 27129.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "typ": "GPB 10000 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 188427.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen  GPB 7000 bis GPB 10000",
+          "price": {
+            "type": "value",
+            "eur": 11500.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel für Vakuumbeschickung DN 150 oder DN 200",
+          "price": {
+            "type": "value",
+            "eur": 3869.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Deckelentnahmehilfe",
+          "price": {
+            "type": "value",
+            "eur": 5500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPB 5500 / 7000 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumanschluss mit Soßenrohr und Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühlmaschine GSK 12",
+          "price": {
+            "type": "value",
+            "eur": 31818.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "typ": "GPS 900",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 75087.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Soßenrohr",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "typ": "GPS 1250",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 79591.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "typ": "GPS 2500",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 96544.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "typ": "GPS 3000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 107020.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500 - 3000",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "typ": "GPS 900 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 89095.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Soßenrohr",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Externe Kühl und Heizmaschine GSK 2-K-H",
+          "price": {
+            "type": "value",
+            "eur": 20609.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Anschluss an kundenseitige Kühlmaschine",
+          "price": {
+            "type": "value",
+            "eur": 3703.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Heizmaschine GSK 2-H",
+          "price": {
+            "type": "value",
+            "eur": 16809.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "typ": "GPS 1250 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 93897.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr  mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Heizmaschine GSK 2-H",
+          "price": {
+            "type": "value",
+            "eur": 16809.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Kühl und Heizmaschine GSK 2-K-H",
+          "price": {
+            "type": "value",
+            "eur": 20609.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitige Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "typ": "GPS 2500 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 111897.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Heizmaschine GSK 3-H",
+          "price": {
+            "type": "value",
+            "eur": 17052.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Kühl und Heizmaschine GSK 3-H-K",
+          "price": {
+            "type": "value",
+            "eur": 25434.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitige Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "typ": "GPS 3000 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 900-3000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 131040.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500 - 3000",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500/3000",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Vakuumdeckel DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 4266.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühl und Heizmaschine GSK 3-K-H",
+          "price": {
+            "type": "value",
+            "eur": 25434.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Heizmaschine GSK 3-H",
+          "price": {
+            "type": "value",
+            "eur": 17052.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschlusss an Kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "typ": "GRT 1250 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GRT",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 137050.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 1250 – 2500",
+          "price": {
+            "type": "value",
+            "eur": 9280.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Automatisches Deckelöffnungs- und Schließungssystem /hydraulisch 1250/2500",
+          "price": {
+            "type": "value",
+            "eur": 7860.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Hockleistungsvakuumpumpe für GRT",
+          "price": {
+            "type": "value",
+            "eur": 15500.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Sonderspannung: GPS / GRT / 900 / 1250 / 2500",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "typ": "GPS 5000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 5000-10000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 163360.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 5000",
+          "price": {
+            "type": "value",
+            "eur": 11470.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel Vakuumbeschickung DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 6900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "typ": "GPS 7500",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 5000-10000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 189140.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (6 St.) GPS 7500/ 10000",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel Vakuumbeschickung DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 6900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "typ": "GPS 10000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 5000-10000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 215080.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (6 St.) GPS 7500/ 10000",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel Vakuumbeschickung DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 6900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3848.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "typ": "GPS 5000 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 5000-10000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 184440.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (4 St.) GPS 5000",
+          "price": {
+            "type": "value",
+            "eur": 11470.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel Vakuumbeschickung DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 6900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Externe Kühlmaschine GSK 5",
+          "price": {
+            "type": "value",
+            "eur": 23434.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Kühl und Heizmaschine GSK 5 K-H nur in Verbindung mit Tumbler kein Stand Alone Intelligenz ist im Tumber",
+          "price": {
+            "type": "value",
+            "eur": 35140.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Externe Heizmaschine GSK 5 H",
+          "price": {
+            "type": "value",
+            "eur": 18684.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "typ": "GPS 7500 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 5000-10000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 216440.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (6 St.) GPS 7500/ 10000",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel Vakuumbeschickung DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 6900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Externes Kühlsystem GSK 8",
+          "price": {
+            "type": "value",
+            "eur": 27129.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühl und Heizmschine GSK 8 K-H nur in Verbindung mit Tumbler kein Stand Alone Intelligenz ist im Tumber",
+          "price": {
+            "type": "value",
+            "eur": 40999.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Heizmaschine GSK 8 H",
+          "price": {
+            "type": "value",
+            "eur": 19246.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss an kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "typ": "GPS 10000 K",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GPS 5000-10000",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 230500.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Wiegezellen (6 St.) GPS 7500/ 10000",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Deckel Vakuumbeschickung DN 150 / DN 200",
+          "price": {
+            "type": "value",
+            "eur": 6900.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Sonderspannung: GPS 3000 / 5000 / 7500 / 10000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Soßenrohr mit Wurfgewicht",
+          "price": {
+            "type": "value",
+            "eur": 1700.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Externe Kühlmaschine GSK 12",
+          "price": {
+            "type": "value",
+            "eur": 31818.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Kühl und Heizmaschine GSK 12 K-H nur in Verbindung mit Tumbler kein Stand Alone Intelligenz ist im Tumber",
+          "price": {
+            "type": "value",
+            "eur": 47817.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Heizmaschine GSK 12-H",
+          "price": {
+            "type": "value",
+            "eur": 23300.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Anschluss kundenseitiges Kühlsystem",
+          "price": {
+            "type": "value",
+            "eur": 3800.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "typ": "GAT 2000",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "GAT",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 41722.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Ausführung motorisch schwenkbar",
+          "price": {
+            "type": "value",
+            "eur": 5393.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GAT 2000/3500",
+          "price": {
+            "type": "value",
+            "eur": 1577.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "typ": "GAT 3500",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "GAT",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 53767.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Ausführung motorisch schwenkbar",
+          "price": {
+            "type": "value",
+            "eur": 5393.85
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung: GAT 2000/3500",
+          "price": {
+            "type": "value",
+            "eur": 1577.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "typ": "GVT 900",
+      "name": "Filteranlagen (Bandfilteranlagen)",
+      "group": "GVT",
+      "category": "Injektoren Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 38605.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GVT",
+          "price": {
+            "type": "value",
+            "eur": 1479.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "typ": "GPC 600",
+      "name": "Coatinganlagen",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 136985.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Abgesetzter Schaltschrank bein. sep. Bediengehäuse für das Bedienpanel",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Abluftsystem mit Drehzahlsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4836.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis Deckelmontagehilfe Be-/Entladetür GPC 600",
+          "price": {
+            "type": "value",
+            "eur": 4066.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis Trommelisolierung GPC 600",
+          "price": {
+            "type": "value",
+            "eur": 3676.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Bodenablassventil",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Externe Verkabelung Preis gültig bei Kabellänge bis 15m Kabelwege werden bauseits bereitgestellt",
+          "price": {
+            "type": "value",
+            "eur": 6173.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Günther Feststoffeinheit GFE",
+          "price": {
+            "type": "value",
+            "eur": 62620.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Puder- bzw. Kräuterrohr mit Steuerkontakt für externe Maschine",
+          "price": {
+            "type": "value",
+            "eur": 4643.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Reinigungslanze",
+          "price": {
+            "type": "value",
+            "eur": 6190.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Sonderspannung: GPC 600 / 2200",
+          "price": {
+            "type": "value",
+            "eur": 3787.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "typ": "GPC 2200",
+      "name": "Coatinganlagen",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 171232.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Abgesetzter Schaltschrank bein. sep. Bediengehäuse für das Bedienpanel",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Abluftsystem mit Drehzahlsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4836.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis Deckelmontagehilfe Be-/Entladetür GPC 2200",
+          "price": {
+            "type": "value",
+            "eur": 5610.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis Trommelisolierung GPC 2200",
+          "price": {
+            "type": "value",
+            "eur": 5416.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Automatische Beladeeinheit GPC 2200",
+          "price": {
+            "type": "value",
+            "eur": 32694.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Bodenablassventil",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Verkabelung Preis gültig bei Kabellänge bis 15m Kabelwege werden bauseits bereitgestellt",
+          "price": {
+            "type": "value",
+            "eur": 6173.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Günther Feststoffeinheit GFE",
+          "price": {
+            "type": "value",
+            "eur": 62620.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Puder- bzw. Kräuterrohr mit Steuerkontakt für externe Maschine",
+          "price": {
+            "type": "value",
+            "eur": 4643.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Reinigungslanze",
+          "price": {
+            "type": "value",
+            "eur": 6190.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Sonderspannung: GPC 600 / 2200",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "typ": "GPC 4000",
+      "name": "Coatinganlagen",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 214043.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Abgesetzter Schaltschrank bein. sep. Bediengehäuse für das Bedienpanel",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Abluftsystem mit Drehzahlsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4836.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis Deckelmontagehilfe Be-/Entladetür GPC 4000",
+          "price": {
+            "type": "value",
+            "eur": 5610.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis Trommelisolierung GPC 4000",
+          "price": {
+            "type": "value",
+            "eur": 7157.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Automatische Beladeeinheit GPC 4000",
+          "price": {
+            "type": "value",
+            "eur": 32694.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Bodenablassventil",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Verkabelung Preis gültig bei Kabellänge bis 15m Kabelwege werden bauseits bereitgestellt",
+          "price": {
+            "type": "value",
+            "eur": 6173.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Günther Feststoffeinheit GFE",
+          "price": {
+            "type": "value",
+            "eur": 62620.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Puder- bzw. Kräuterrohr mit Steuerkontakt für externe Maschine",
+          "price": {
+            "type": "value",
+            "eur": 4643.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Reinigungslanze",
+          "price": {
+            "type": "value",
+            "eur": 6190.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Sonderspannung: GPC 4000 / 12000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "typ": "GPC 7000",
+      "name": "Coatinganlagen",
+      "group": "GPC",
+      "category": "Coating VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 256849.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Abgesetzter Schaltschrank bein. sep. Bediengehäuse für das Bedienpanel",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Abluftsystem mit Drehzahlsteuerung",
+          "price": {
+            "type": "value",
+            "eur": 4836.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Aufpreis Deckelmontagehilfe Be-/Entladetür GPC 7000",
+          "price": {
+            "type": "value",
+            "eur": 6190.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Aufpreis Trommelisolierung GPC 7000",
+          "price": {
+            "type": "value",
+            "eur": 12188.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "Automatische Beladeeinheit GPC 7000",
+          "price": {
+            "type": "value",
+            "eur": 33275.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "Bodenablassventil",
+          "price": {
+            "type": "value",
+            "eur": 10253.0
+          }
+        },
+        {
+          "id": "7",
+          "name": "Externe Verkabelung Preis gültig bei Kabellänge bis 15m Kabelwege werden bauseits bereitgestellt",
+          "price": {
+            "type": "value",
+            "eur": 6173.0
+          }
+        },
+        {
+          "id": "8",
+          "name": "Günther Feststoffeinheit GFE",
+          "price": {
+            "type": "value",
+            "eur": 62620.0
+          }
+        },
+        {
+          "id": "9",
+          "name": "Puder- bzw. Kräuterrohr mit Steuerkontakt für externe Maschine",
+          "price": {
+            "type": "value",
+            "eur": 4643.0
+          }
+        },
+        {
+          "id": "10",
+          "name": "Reinigungslanze",
+          "price": {
+            "type": "value",
+            "eur": 6190.0
+          }
+        },
+        {
+          "id": "11",
+          "name": "Sonderspannung: GPC 4000 / 12000",
+          "price": {
+            "type": "value",
+            "eur": 3878.0
+          }
+        },
+        {
+          "id": "12",
+          "name": "Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 15070.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "typ": "GTT GPS 1",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GTT",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 32824.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GTT",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "typ": "GTT GPS 2",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GTT",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 55060.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung: GTT",
+          "price": {
+            "type": "value",
+            "eur": 2437.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "typ": "GVB 1000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GVB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 13391.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für Wiegezellen GVB 1000 / 2000",
+          "price": {
+            "type": "value",
+            "eur": 10236.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Ausleseeinheit für Gewichte Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 1575.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 150)",
+          "price": {
+            "type": "value",
+            "eur": 11607.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 200)",
+          "price": {
+            "type": "value",
+            "eur": 12155.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "GPS/ GPB: Kugelhahn: Edelstahl-Kugel in Kunststoffgehäuse",
+          "price": {
+            "type": "value",
+            "eur": 4329.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "GVB verfahrbar 2 Bockrollen ohne Bremse, 2 Lenkrollen mit Bremse komplett",
+          "price": {
+            "type": "value",
+            "eur": 2265.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "typ": "GVB 2000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GVB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 18149.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für Wiegezellen GVB 1000 / 2000",
+          "price": {
+            "type": "value",
+            "eur": 10236.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Ausleseeinheit für Gewichte Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 1575.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel DN 150 für Vakuumbeschickung",
+          "price": {
+            "type": "value",
+            "eur": 11607.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 200)",
+          "price": {
+            "type": "value",
+            "eur": 12155.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "GPS/ GPB: Kugelhahn: Edelstahl-Kugel in Kunststoffgehäuse",
+          "price": {
+            "type": "value",
+            "eur": 4329.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "GVB verfahrbar 2 Bockrollen ohne Bremse, 2 Lenkrollen mit Bremse komplett",
+          "price": {
+            "type": "value",
+            "eur": 2265.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "typ": "GVB 3000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GVB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 26750.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für Wiegezellen GVB 3000 / 5000 / 7000",
+          "price": {
+            "type": "value",
+            "eur": 13457.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Ausleseeinheit für Gewichte Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 1575.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 150)",
+          "price": {
+            "type": "value",
+            "eur": 11607.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 200)",
+          "price": {
+            "type": "value",
+            "eur": 12155.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "GPS/ GPB: Kugelhahn: Edelstahl-Kugel in Kunststoffgehäuse",
+          "price": {
+            "type": "value",
+            "eur": 4329.0
+          }
+        },
+        {
+          "id": "6",
+          "name": "GVB verfahrbar 2 Bockrollen ohne Bremse, 2 Lenkrollen mit Bremse komplett",
+          "price": {
+            "type": "value",
+            "eur": 2265.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "typ": "GVB 5000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GVB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 30820.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für Wiegezellen GVB 3000 / 5000 / 7000",
+          "price": {
+            "type": "value",
+            "eur": 13457.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Ausleseeinheit für Gewichte Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 1575.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 150)",
+          "price": {
+            "type": "value",
+            "eur": 11607.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 200)",
+          "price": {
+            "type": "value",
+            "eur": 12155.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "GPS/ GPB: Kugelhahn: Edelstahl-Kugel in Kunststoffgehäuse",
+          "price": {
+            "type": "value",
+            "eur": 4329.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "typ": "GVB 7000",
+      "name": "Tumbler / Poltermaschinen mit / ohne Doppelmantel",
+      "group": "GVB",
+      "category": "Tumbler Industrie VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 40510.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Aufpreis für Wiegezellen GVB 3000 / 5000 / 7000",
+          "price": {
+            "type": "value",
+            "eur": 13457.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Externe Ausleseeinheit für Gewichte Wiegezellen",
+          "price": {
+            "type": "value",
+            "eur": 1575.0
+          }
+        },
+        {
+          "id": "3",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 150)",
+          "price": {
+            "type": "value",
+            "eur": 11607.0
+          }
+        },
+        {
+          "id": "4",
+          "name": "Fahrbares Bedienpodest für Kugelhahn.GVB nur in Verbindung mit Deckel für Vakuumbeschickung ( DN 200)",
+          "price": {
+            "type": "value",
+            "eur": 12155.0
+          }
+        },
+        {
+          "id": "5",
+          "name": "GPS/ GPB: Kugelhahn: Edelstahl-Kugel in Kunststoffgehäuse",
+          "price": {
+            "type": "value",
+            "eur": 4329.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "typ": "Günther Pilot Pro",
+      "name": "Software",
+      "group": "Günther Pilot",
+      "category": "Software",
+      "basePrice": {
+        "type": "value",
+        "eur": 17086.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Einbindung jede weitere MC2R Maschine",
+          "price": {
+            "type": "value",
+            "eur": 2718.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "typ": "GPM 300 G",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 115161.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Externe Säulenbeschickung fahrbar GPM 300 / 600 / 900 Guacamole",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung GPM 300 / 600 / 900 Guacamole",
+          "price": {
+            "type": "value",
+            "eur": 3200.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "typ": "GPM 900 G",
+      "name": "Tumbler / Poltermaschinen mit/ ohne Doppelmantel (K oder K-H Version)",
+      "group": "GPM",
+      "category": "Tumbler Handwerk VK",
+      "basePrice": {
+        "type": "value",
+        "eur": 137118.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Externe Säulenbeschickung für GPM 300 / 600 / 900 Guacamole",
+          "price": {
+            "type": "value",
+            "eur": 26900.0
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sonderspannung GPM 300 / 600 / 900 Guacamole",
+          "price": {
+            "type": "value",
+            "eur": 3200.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "typ": "Loadmaster NT",
+      "name": "Hebe- und Kippvorrichtungen mit Trichter",
+      "group": "Load Master",
+      "category": "Hebe- und Kippvorrichtungen",
+      "basePrice": {
+        "type": "value",
+        "eur": 19924.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung Load Master NT",
+          "price": {
+            "type": "value",
+            "eur": 2036.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "typ": "Load Master NTLT",
+      "name": "Hebe- und Kippvorrichtungen mit Trichter",
+      "group": "Load Master",
+      "category": "Hebe- und Kippvorrichtungen",
+      "basePrice": {
+        "type": "value",
+        "eur": 19924.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspanung Load Master NTLT",
+          "price": {
+            "type": "value",
+            "eur": 2063.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "typ": "Load Master SKV 300 C4T",
+      "name": "Hebe- und Kippvorrichtungen mit Trichter",
+      "group": "Load Master",
+      "category": "Hebe- und Kippvorrichtungen",
+      "basePrice": {
+        "type": "value",
+        "eur": 28917.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung Load Master SKV 300CT4",
+          "price": {
+            "type": "value",
+            "eur": 2063.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "typ": "Load Master SD / CD",
+      "name": "Hebe- und Kippvorrichtungen mit Trichter",
+      "group": "Load Master",
+      "category": "Hebe- und Kippvorrichtungen",
+      "basePrice": {
+        "type": "value",
+        "eur": 37460.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannug Load Master SD / CD",
+          "price": {
+            "type": "value",
+            "eur": 2063.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "typ": "Load Master SK 800 MK2-T",
+      "name": "Hebe- und Kippvorrichtungen mit Trichter",
+      "group": "Load Master",
+      "category": "Hebe- und Kippvorrichtungen",
+      "basePrice": {
+        "type": "value",
+        "eur": 57566.0
+      },
+      "options": [
+        {
+          "id": "1",
+          "name": "Sonderspannung Load Master SK 800 MK2-T",
+          "price": {
+            "type": "value",
+            "eur": 2063.0
+          }
+        }
+      ]
+    }
+  ]
+}
