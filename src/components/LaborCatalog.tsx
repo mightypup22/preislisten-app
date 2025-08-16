@@ -61,9 +61,9 @@ export default function LaborCatalog(){
       {all.map(a => (
         <div
           key={a.id}
-          className="rounded-2xl border bg-white p-4 grid gap-3 items-center md:grid-cols-[1fr_auto_auto]"
+          className="rounded-2xl border bg-white p-4 md:grid md:gap-3 md:items-center md:grid-cols-[1fr_auto_auto]"
         >
-          {/* Auswahl + Titel + Metazeile */}
+          {/* Zeile 1 (immer sichtbar): Checkbox + Titel + Meta */}
           <label className="flex items-start gap-2">
             <input
               type="checkbox"
@@ -79,14 +79,30 @@ export default function LaborCatalog(){
             </div>
           </label>
 
-          {/* Rechtsbündige Info-Spalte */}
-          <div className="text-sm text-slate-700 text-right justify-self-end">
-            <div>{t('avg_symbol')}: {a.avgDays} {t('days')}</div>
+          {/* --- Mobile (unter md): Zeile 2 kombiniert (Info links, Tage rechts) --- */}
+          <div className="mt-3 md:hidden flex items-center justify-between gap-3 w-full">
+            <div className="text-sm text-slate-700">
+              <div>∅ {a.avgDays} {t('days')}</div>
+              <div>{t('price_per_day')}: {fmtEUR(a.dayRateEur)}</div>
+            </div>
+            <div className="flex items-center gap-2">
+              <label className="text-sm whitespace-nowrap">{t('days')}</label>
+              <input
+                type="number" min={0} step={1}
+                className="w-20 rounded border px-2 py-1 text-right"
+                value={days[a.id] ?? a.avgDays}
+                onChange={e=> setDays(s=>({ ...s, [a.id]: parseInt(e.target.value || '0') }))}
+              />
+            </div>
+          </div>
+
+          {/* --- Desktop (ab md): getrennte Spalten wie bisher --- */}
+          <div className="hidden md:block text-sm text-slate-700 text-right justify-self-end">
+            <div>∅ {a.avgDays} {t('days')}</div>
             <div>{t('price_per_day')}: {fmtEUR(a.dayRateEur)}</div>
           </div>
 
-          {/* Tage-Eingabe */}
-          <div className="flex items-center gap-2 justify-self-end md:ml-6">
+          <div className="hidden md:flex items-center gap-2 justify-self-end md:ml-6">
             <label className="text-sm whitespace-nowrap">{t('days')}</label>
             <input
               type="number" min={0} step={1}

@@ -7,6 +7,7 @@ import PriceSummary from './components/PriceSummary'
 import { CartProvider } from './context/CartContext'
 import type { SortKey } from './utils/search'
 import AdminPage from './pages/Admin'
+import LanguageToggle from './components/LanguageToggle'
 import { useLang } from './context/Lang'
 
 export default function App(){
@@ -15,7 +16,7 @@ export default function App(){
   const [mode, setMode] = useState<'hardware'|'labor'>('hardware')
   const [showSvgLogo, setShowSvgLogo] = useState(false)
   const [hash, setHash] = useState(window.location.hash)
-  const { t } = useLang?.() || { t: (x:string)=>x }
+  const { t } = useLang() as any
 
   useEffect(() => {
     const onHash = () => setHash(window.location.hash)
@@ -31,63 +32,70 @@ export default function App(){
     <CartProvider>
       <main className="max-w-7xl mx-auto p-4 grid lg:grid-cols-[1fr_360px] gap-6">
         <section className="no-print">
-          {/* Header */}
-          <header className="flex flex-wrap items-center gap-3 justify-between mb-3 w-full">
-            <div className="flex items-center gap-3 min-w-0">
-              {/* Logo nur anzeigen, wenn /public/logo.svg vorhanden */}
-              <img
-                src="/logo.svg"
-                alt="Logo"
-                className={`h-8 ${showSvgLogo ? '' : 'hidden'}`}
-                onLoad={() => setShowSvgLogo(true)}
-                onError={() => setShowSvgLogo(false)}
-              />
-              <div className="min-w-0">
-                <h1 className="text-2xl font-bold leading-tight truncate">{t('brand') || 'Günther Maschinenbau GmbH'}</h1>
-                <div className="text-xl text-slate-500 -mt-0.5 truncate">{t('price_list') || 'Preisliste'}</div>
+          {/* ===== Titelzeile mit Admin-Link rechts ===== */}
+          <header className="w-full mb-3">
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex items-center gap-3 min-w-0">
+                <img
+                  src="/logo.svg"
+                  alt="Logo"
+                  className={`h-8 ${showSvgLogo ? '' : 'hidden'}`}
+                  onLoad={() => setShowSvgLogo(true)}
+                  onError={() => setShowSvgLogo(false)}
+                />
+                <div className="min-w-0">
+                  <h1 className="text-2xl font-bold leading-tight truncate">
+                    {t('brand') || 'Günther Maschinenbau GmbH'}
+                  </h1>
+                  <div className="text-xl text-slate-500 -mt-0.5 truncate">
+                    {t('price_list') || 'Preisliste'}
+                  </div>
+                </div>
               </div>
+              {import.meta.env.DEV && (
+                <a href="#/admin" className="shrink-0 underline text-sm">Admin</a>
+              )}
             </div>
-            {import.meta.env.DEV && (
-              <a href="#/admin" className="underline text-sm shrink-0">Admin</a>
-            )}
           </header>
 
-          {/* Controls: Mobile-stabil, kein Overflow */}
-          <div className="mb-4">
-            {/* 1) Modus-Toggle: horizontal scrollbar auf XS, normal ab sm */}
-            <div className="-mx-1 px-1 pb-1 overflow-x-auto whitespace-nowrap flex gap-2 snap-x sm:overflow-visible sm:flex-wrap">
-              <button
-                onClick={()=>setMode('hardware')}
-                className={`px-3 py-2 rounded-xl border snap-start ${
-                  mode==='hardware' ? 'bg-slate-900 text-white' : 'border-slate-300 hover:bg-slate-50'
-                }`}
-              >
-                {t('products_tab') || 'Produkte'}
-              </button>
-              <button
-                onClick={()=>setMode('labor')}
-                className={`px-3 py-2 rounded-xl border snap-start ${
-                  mode==='labor' ? 'bg-slate-900 text-white' : 'border-slate-300 hover:bg-slate-50'
-                }`}
-              >
-                {t('labor_tab') || 'Arbeit'}
-              </button>
-            </div>
+          {/* ===== Zeile 1: Sprachumschalter links ===== */}
+          <div className="mb-2">
+            <LanguageToggle />
+          </div>
 
-            {/* 2) Suche/Sortierung: stackt auf XS, nebeneinander ab sm */}
-            {mode === 'hardware' && (
-              <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-center">
-                <div className="min-w-0 flex-1">
+          {/* ===== Zeile 2: Suche (links, max 50%) + Sort (rechts) — nur im Hardware-Modus ===== */}
+          {mode === 'hardware' && (
+            <div className="mb-3">
+              <div className="flex items-center gap-2 flex-nowrap max-w-full">
+                {/* Suchfeld: darf schrumpfen, aber max 50% */}
+                <div className="min-w-[80px] max-w-[50%] basis-[50%] flex-1">
                   <SearchBar q={q} setQ={setQ} />
                 </div>
-                <div className="shrink-0">
+                {/* Sort: hart rechts ausgerichtet, kein Abschneiden */}
+                <div className="ml-auto shrink-0 flex justify-end">
                   <SortMenu sort={sort} setSort={setSort} />
                 </div>
               </div>
-            )}
+            </div>
+          )}
+
+          {/* ===== Zeile 3: Modus-Buttons links ===== */}
+          <div className="mb-4 flex items-center gap-2 flex-wrap">
+            <button
+              onClick={()=>setMode('hardware')}
+              className={`px-3 py-2 rounded-xl border ${mode==='hardware'?'bg-slate-900 text-white':'border-slate-300 hover:bg-slate-50'}`}
+            >
+              {t('products_tab') || 'Produkte'}
+            </button>
+            <button
+              onClick={()=>setMode('labor')}
+              className={`px-3 py-2 rounded-xl border ${mode==='labor'?'bg-slate-900 text-white':'border-slate-300 hover:bg-slate-50'}`}
+            >
+              {t('labor_tab') || 'Arbeit'}
+            </button>
           </div>
 
-          {/* Inhalt */}
+          {/* ===== Inhalt ===== */}
           {mode === 'hardware' ? (
             <Catalog q={q} sort={sort} />
           ) : (

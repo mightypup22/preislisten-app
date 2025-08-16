@@ -5,8 +5,6 @@ import ProductCard from './ProductCard'
 import GroupInfo from './GroupInfo'
 import { useLang } from '../context/Lang'
 
-const VISIBLE_CHIPS = 3
-
 async function fetchLangJson<T>(baseUrlNoExt: string, lang: 'de' | 'en'): Promise<T> {
   const candidates = [
     `${baseUrlNoExt}.${lang}.json`,
@@ -31,11 +29,9 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  // Chips-Steuerung (Desktop-Logik beibehalten)
-  const [catExpanded, setCatExpanded] = useState(false)
-  const [grpExpanded, setGrpExpanded] = useState(false)
-  const [catPage, setCatPage] = useState(0)
-  const [grpPage, setGrpPage] = useState(0)
+  // „Auswählen“-Zustände
+  const [catsOpen, setCatsOpen] = useState(false)
+  const [grpsOpen, setGrpsOpen] = useState(false)
 
   const tt = (key: string, fallback: string) => {
     const v = t(key)
@@ -79,10 +75,8 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
     return Array.from(new Set(base.map(p => p.group))).sort()
   }, [all, category])
 
-  // Reset beim Wechsel
-  useEffect(() => { setGroup('all'); setGrpExpanded(false); setGrpPage(0) }, [category])
-  useEffect(() => { setCatPage(0) }, [catExpanded, categories.length])
-  useEffect(() => { setGrpPage(0) }, [grpExpanded, groups.length])
+  // Reset beim Wechsel der Kategorie
+  useEffect(() => { setGroup('all'); setGrpsOpen(false) }, [category])
 
   // Filter + Sort
   const list = useMemo(() => {
@@ -99,120 +93,98 @@ export default function Catalog({ q, sort }: { q: string; sort: SortKey }) {
     return sortProducts(L, sort)
   }, [all, q, category, group, sort])
 
-  // Paginierte Chips (eingeklappt)
-  const catTotalPages = Math.max(1, Math.ceil(categories.length / VISIBLE_CHIPS))
-  const grpTotalPages = Math.max(1, Math.ceil(groups.length / VISIBLE_CHIPS))
-  const catSlice = catExpanded
-    ? categories
-    : categories.slice(catPage * VISIBLE_CHIPS, catPage * VISIBLE_CHIPS + VISIBLE_CHIPS)
-  const grpSlice = grpExpanded
-    ? groups
-    : groups.slice(grpPage * VISIBLE_CHIPS, grpPage * VISIBLE_CHIPS + VISIBLE_CHIPS)
+  // UI-Helfer
+  const Chip = ({ active, children, onClick }:{
+    active?: boolean; children: React.ReactNode; onClick: () => void
+  }) => (
+    <button
+      onClick={onClick}
+      aria-pressed={!!active}
+      className={`px-3 py-1 rounded-full border ${active ? 'bg-slate-900 text-white' : 'border-slate-300 hover:bg-slate-50'}`}
+    >
+      {children}
+    </button>
+  )
 
   if (loading) return <div className="text-slate-500">Lade Daten…</div>
   if (error)   return <div className="text-red-700">Fehler: {error}</div>
 
   return (
     <div>
-      {/* Kategorie-Chips */}
-      <div className="flex flex-wrap items-center gap-2 mb-3 w-full">
-        <button
-          onClick={() => setCategory('all')}
-          className={`px-3 py-1 rounded-full border ${category==='all'?'bg-slate-900 text-white':'border-slate-300'}`}
-        >
-          {tt('all', 'Alle')}
-        </button>
-
-        {catSlice.map(c => (
-          <button
-            key={c}
-            onClick={() => setCategory(c)}
-            className={`px-3 py-1 rounded-full border ${category===c?'bg-slate-900 text-white':'border-slate-300'}`}
-          >
-            {c}
-          </button>
-        ))}
-
-        {/* Paging (eingeklappt) – auf Mobile immer in EIGENER Zeile (bricht um) */}
-        {!catExpanded && categories.length > VISIBLE_CHIPS && (
-          <div className="basis-full flex items-center gap-2 justify-end sm:basis-auto sm:ml-auto">
+      {/* Kategorien-Zeile */}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        {!catsOpen ? (
+          <>
+            <Chip active={category === 'all'} onClick={() => { setCategory('all'); /* bleibt collapsed */ }}>
+              {tt('all', 'Alle')}
+            </Chip>
+            {category !== 'all' && (
+              <Chip active onClick={()=>{ /* optional: erneut wählen → öffnet Auswahl */ setCatsOpen(true) }}>
+                {category}
+              </Chip>
+            )}
             <button
-              className="px-2 py-1 rounded border text-xs"
-              onClick={() => setCatPage(p => Math.max(0, p - 1))}
-              disabled={catPage === 0}
-              aria-label={t('previous')}
-              title={t('previous')}
-            >‹</button>
-            <div className="text-xs text-slate-500">{t('page')} {catPage+1}/{catTotalPages}</div>
-            <button
-              className="px-2 py-1 rounded border text-xs"
-              onClick={() => setCatPage(p => Math.min(catTotalPages - 1, p + 1))}
-              disabled={catPage >= catTotalPages - 1}
-              aria-label={t('next')}
-              title={t('next')}
-            >›</button>
-          </div>
-        )}
-
-        {/* Toggle – auf Mobile auch in EIGENER Zeile */}
-        {categories.length > VISIBLE_CHIPS && (
-          <button
-            className="underline text-xs basis-full text-right sm:basis-auto sm:text-left sm:ml-2"
-            onClick={() => setCatExpanded(v => !v)}
-          >
-            {catExpanded ? t('show_less') : t('show_more')}
-          </button>
+              className="px-3 py-1 rounded-full border border-slate-300 hover:bg-slate-50"
+              onClick={() => setCatsOpen(true)}
+            >
+              {tt('select', 'Auswählen')}
+            </button>
+          </>
+        ) : (
+          <>
+            {/* Auswahl geöffnet: zeige „Alle“ + alle Kategorien; Klick wählt & kollabiert */}
+            <Chip active={category === 'all'} onClick={() => { setCategory('all'); setCatsOpen(false) }}>
+              {tt('all', 'Alle')}
+            </Chip>
+            {categories.map(c => (
+              <Chip
+                key={c}
+                active={category === c}
+                onClick={() => { setCategory(c); setCatsOpen(false) }}
+              >
+                {c}
+              </Chip>
+            ))}
+          </>
         )}
       </div>
 
-      {/* Gruppen-Chips */}
-      <div className="flex flex-wrap items-center gap-2 mb-4 w-full">
-        <button
-          onClick={() => setGroup('all')}
-          className={`px-3 py-1 rounded-full border ${group==='all'?'bg-slate-900 text-white':'border-slate-300'}`}
-        >
-          {t('all_groups')}
-        </button>
-
-        {grpSlice.map(g => (
-          <button
-            key={g}
-            onClick={() => setGroup(g)}
-            className={`px-3 py-1 rounded-full border ${group===g?'bg-slate-900 text-white':'border-slate-300'}`}
-          >
-            {g}
-          </button>
-        ))}
-
-        {/* Paging (eingeklappt) – Mobile eigene Zeile, Desktop rechts */}
-        {!grpExpanded && groups.length > VISIBLE_CHIPS && (
-          <div className="basis-full flex items-center gap-2 justify-end sm:basis-auto sm:ml-auto">
+      {/* Gruppen-Zeile */}
+      <div className="flex flex-wrap items-center gap-2 mb-4">
+        {!grpsOpen ? (
+          <>
+            <Chip active={group === 'all'} onClick={() => { setGroup('all'); /* collapsed */ }}>
+              {tt('all_groups', 'Alle Gruppen')}
+            </Chip>
+            {group !== 'all' && (
+              <Chip active onClick={()=>{ setGrpsOpen(true) }}>
+                {group}
+              </Chip>
+            )}
             <button
-              className="px-2 py-1 rounded border text-xs"
-              onClick={() => setGrpPage(p => Math.max(0, p - 1))}
-              disabled={grpPage === 0}
-              aria-label={t('previous')}
-              title={t('previous')}
-            >‹</button>
-            <div className="text-xs text-slate-500">{t('page')} {grpPage+1}/{grpTotalPages}</div>
-            <button
-              className="px-2 py-1 rounded border text-xs"
-              onClick={() => setGrpPage(p => Math.min(grpTotalPages - 1, p + 1))}
-              disabled={grpPage >= grpTotalPages - 1}
-              aria-label={t('next')}
-              title={t('next')}
-            >›</button>
-          </div>
-        )}
-
-        {/* Toggle – Mobile eigene Zeile */}
-        {groups.length > VISIBLE_CHIPS && (
-          <button
-            className="underline text-xs basis-full text-right sm:basis-auto sm:text-left sm:ml-2"
-            onClick={() => setGrpExpanded(v => !v)}
-          >
-            {grpExpanded ? t('show_less') : t('show_more')}
-          </button>
+              className="px-3 py-1 rounded-full border border-slate-300 hover:bg-slate-50"
+              onClick={() => setGrpsOpen(true)}
+              disabled={groups.length === 0}
+              title={groups.length === 0 ? tt('no_groups', 'Keine Gruppen verfügbar') : undefined}
+            >
+              {tt('select', 'Auswählen')}
+            </button>
+          </>
+        ) : (
+          <>
+            <Chip active={group === 'all'} onClick={() => { setGroup('all'); setGrpsOpen(false) }}>
+              {tt('all_groups', 'Alle Gruppen')}
+            </Chip>
+            {groups.map(g => (
+              <Chip
+                key={g}
+                active={group === g}
+                onClick={() => { setGroup(g); setGrpsOpen(false) }}
+              >
+                {g}
+              </Chip>
+            ))}
+          </>
         )}
       </div>
 
