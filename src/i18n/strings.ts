@@ -20,7 +20,7 @@ export const dict: Record<Lang, Dict> = {
     all_groups: 'Alle Maschinengruppen',
 
     // Tabs
-    products_tab: 'Produkte',
+    products_tab: 'Maschinen',
     labor_tab: 'Arbeit',
 
     // Produktkarte
@@ -49,18 +49,18 @@ export const dict: Record<Lang, Dict> = {
     // Summary
     summary_title: 'Angebotszusammenfassung',
     customer: 'Kunde',
-    hardware_costs: 'Produktkosten',
-    no_hw: 'Keine Produkte hinzugefügt.',
+    hardware_costs: 'Maschinenkosten',
+    no_hw: 'Keine Maschinen hinzugefügt.',
     labor_costs: 'Arbeitskosten',
     no_labor: 'Keine Arbeitskosten hinzugefügt.',
     days: 'Tage',
     day_rate: 'Tagessatz',
     subtotal_item: 'Zwischensumme (Position)',
     subtotal_labor_item: 'Zwischensumme (Arbeit)',
-    subtotal_products: 'Zwischensumme Produkte',
+    subtotal_products: 'Zwischensumme Maschinen',
     subtotal_labor: 'Zwischensumme Arbeit',
     subtotal_cart: 'Warenkorb Zwischensumme',
-    discount_on_hw: 'Rabatt auf Produkte',
+    discount_on_hw: 'Rabatt auf Maschinen',
     discount_on_labor: 'Rabatt auf Arbeit',
     discount_percent: 'Rabatt %',
     discount: 'Rabatt',
@@ -88,7 +88,7 @@ export const dict: Record<Lang, Dict> = {
     all_groups: 'All machine groups',
 
     // Tabs
-    products_tab: 'Products',
+    products_tab: 'Machines',
     labor_tab: 'Labor',
 
     // Product card
@@ -117,18 +117,18 @@ export const dict: Record<Lang, Dict> = {
     // Summary
     summary_title: 'Quote Summary',
     customer: 'Customer',
-    hardware_costs: 'Product costs',
-    no_hw: 'No products added.',
+    hardware_costs: 'Machine costs',
+    no_hw: 'No machines added.',
     labor_costs: 'Labor costs',
     no_labor: 'No labor added.',
     days: 'Days',
     day_rate: 'Day rate',
     subtotal_item: 'Subtotal (item)',
     subtotal_labor_item: 'Subtotal (labor)',
-    subtotal_products: 'Subtotal hardware',
+    subtotal_products: 'Subtotal machines',
     subtotal_labor: 'Subtotal labor',
     subtotal_cart: 'Cart subtotal',
-    discount_on_hw: 'Discount on hardware',
+    discount_on_hw: 'Discount on machines',
     discount_on_labor: 'Discount on labor',
     discount_percent: 'Discount %',
     discount: 'Discount',

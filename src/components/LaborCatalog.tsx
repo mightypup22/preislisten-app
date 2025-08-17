@@ -69,7 +69,7 @@ export default function LaborCatalog(){
               type="checkbox"
               checked={!!sel[a.id]}
               onChange={()=>toggle(a.id)}
-              className="mt-[2px]"
+              className="mt-[5px]"
             />
             <div>
               <div className="font-medium leading-tight">{a.title}</div>
@@ -79,8 +79,8 @@ export default function LaborCatalog(){
             </div>
           </label>
 
-          {/* --- Mobile (unter md): Zeile 2 kombiniert (Info links, Tage rechts) --- */}
-          <div className="mt-3 md:hidden flex items-center justify-between gap-3 w-full">
+          {/* --- Mobile (unter md): Zeile 2 – jetzt mit Einzug, bündig zum Titel --- */}
+          <div className="mt-3 md:hidden flex items-center justify-between gap-3 w-full pl-6">
             <div className="text-sm text-slate-700">
               <div>∅ {a.avgDays} {t('days')}</div>
               <div>{t('price_per_day')}: {fmtEUR(a.dayRateEur)}</div>
@@ -120,3 +120,4 @@ export default function LaborCatalog(){
     </div>
   )
 }
+
