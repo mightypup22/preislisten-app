@@ -10,10 +10,10 @@ import AdminPage from './pages/Admin'
 import LanguageToggle from './components/LanguageToggle'
 import { useLang } from './context/Lang'
 
-export default function App(){
+export default function App() {
   const [q, setQ] = useState('')
   const [sort, setSort] = useState<SortKey>('name')
-  const [mode, setMode] = useState<'hardware'|'labor'>('hardware')
+  const [mode, setMode] = useState<'hardware' | 'labor'>('hardware')
   const [showSvgLogo, setShowSvgLogo] = useState(false)
   const [hash, setHash] = useState(window.location.hash)
   const { t } = useLang() as any
@@ -45,7 +45,7 @@ export default function App(){
                 />
                 <div className="min-w-0">
                   <h1 className="text-2xl font-bold leading-tight truncate">
-                    {t('brand') || 'Günther Maschinenbau GmbH'}
+                    {t('brand') || 'Maschinenbau GmbH'}
                   </h1>
                   <div className="text-xl text-slate-500 -mt-0.5 truncate">
                     {t('price_list') || 'Preisliste'}
@@ -82,14 +82,14 @@ export default function App(){
           {/* ===== Zeile 3: Modus-Buttons links ===== */}
           <div className="mb-4 flex items-center gap-2 flex-wrap">
             <button
-              onClick={()=>setMode('hardware')}
-              className={`px-3 py-2 rounded-xl border ${mode==='hardware'?'bg-slate-900 text-white':'border-slate-300 hover:bg-slate-50'}`}
+              onClick={() => setMode('hardware')}
+              className={`px-3 py-2 rounded-xl border ${mode === 'hardware' ? 'bg-slate-900 text-white' : 'border-slate-300 hover:bg-slate-50'}`}
             >
               {t('products_tab') || 'Produkte'}
             </button>
             <button
-              onClick={()=>setMode('labor')}
-              className={`px-3 py-2 rounded-xl border ${mode==='labor'?'bg-slate-900 text-white':'border-slate-300 hover:bg-slate-50'}`}
+              onClick={() => setMode('labor')}
+              className={`px-3 py-2 rounded-xl border ${mode === 'labor' ? 'bg-slate-900 text-white' : 'border-slate-300 hover:bg-slate-50'}`}
             >
               {t('labor_tab') || 'Arbeit'}
             </button>
