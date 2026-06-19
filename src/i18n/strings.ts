@@ -4,7 +4,7 @@ type Dict = Record<string, string>
 
 export const dict: Record<Lang, Dict> = {
   de: {
-    brand: 'Günther Maschinenbau GmbH',
+    brand: 'Maschinenbau GmbH',
     price_list: 'Preisliste',
 
     // UI
@@ -72,7 +72,7 @@ export const dict: Record<Lang, Dict> = {
     price_per_day: 'Preis pro Tag',
   },
   en: {
-    brand: 'Günther Maschinenbau GmbH',
+    brand: 'Maschinenbau GmbH',
     price_list: 'Price List',
 
     // UI
